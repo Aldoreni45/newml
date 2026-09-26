@@ -1,0 +1,904 @@
+
+==================== FALSE POSITIVES (3332) ====================
+p=0.962 y=0 tset=97 atset=98 trank=1 freq=1 [US]
+  S1: XQ Legacy Holdings | 3004 Lucinda Street, Houston, TX
+  T : XQX Legacy Holdings | 3004 LCINDA STREET, NULL, HOUSTON, TX
+p=0.948 y=0 tset=100 atset=97 trank=1 freq=53 [US]
+  S1: Amber Inc. | 340 Olympic Park Drive, Kyle, TX
+  T : Amber  Inc | 345 OLYMPIC PARK DR, KYLE, TX
+p=0.993 y=0 tset=100 atset=93 trank=1 freq=90 [India]
+  S1: Hotel Technology Pvt Ltd | 300, T.H. Road, 300, T.H. Road, 300, T.H. Road, Chennai - 600 005., Chennai, Tamil Nadu
+  T : ஹோட்டல் டெக் பிரைவேட் லிமிடெட் | 3-13, T.H. ROAD, 300, T.H. ROAD, 300, T.H. ROAD, CHENNAI - 600 005., CHENNAI, தமிழ்நாடு
+p=0.790 y=0 tset=83 atset=100 trank=1 freq=1 [India]
+  S1: Howrah Consultants Pvt. Ltd. | 6/6 South Buxarah Village Road Danekh Shake Lane, Howrah, West Bengal
+  T : Howrah Ventures Ltd. Pvt. | West Bengal, NO 6/15 SOUTH BUXARAH VILLAGE ROAD DANEKH SHAKE LANE, HOWRAH
+p=0.987 y=0 tset=100 atset=94 trank=1 freq=1 [US]
+  S1: Eyrich, Barrera and Long L.L.C. | 5128 Professional Drive, Wichita Falls, TX
+  T : LLC Eyrich, Barrera and Long | 5141 PROFESSIONAL DR, WICHITA FALLS CDP, TX
+p=0.797 y=0 tset=100 atset=72 trank=1 freq=53 [US]
+  S1: Eye Partners, Inc | 175 Persimmon Street, Tazewell County, VA
+  T : Eye Partners, Partners | 177-179 PERSIMMON ST, CDAR BLUFF, VA
+p=0.947 y=0 tset=100 atset=0 trank=1 freq=1 [India]
+  S1: New Farmers Ltd | 214, 2Nd Floor, Powai Plaza, Hiranandani Gardens, Powai, Mumbai, Maharashtra
+  T : New Farmers Limited | 
+p=0.715 y=0 tset=82 atset=98 trank=1 freq=4 [US]
+  S1: Ridgeline LLP | Lee County, 4956 Dr Thomas Walker Road, VA
+  T : RIDGELINE CORP | 4961 DR THOMAS WALKER ROAD, LEE COUNTY, VA
+p=0.919 y=0 tset=100 atset=93 trank=1 freq=2 [US]
+  S1: C H & S Berto Inc. | 518 Lilly Lane, Bullard, TX
+  T : C H & Inc Berto S | 519-C LILLY LN, BULLARD, TX
+p=0.799 y=0 tset=100 atset=99 trank=1 freq=1 [US]
+  S1: Madel's Couture | 6912 40th Avenue, City Of Kenosha, WI
+  T : MADEL'S COUTURE INC | 691 40TH AVENUE, CITY OF KENOSHA, WI
+p=0.797 y=0 tset=100 atset=92 trank=1 freq=41 [India]
+  S1: Raj Energy Private Limited | Office No. 603, Dev Auram, Anand Nagar, Ahmadabad City, Block A, Ahmedabad, Gujarat
+  T : રાજ એનર્જી પ્રાઇવેટ લિમિટેડ | 35, AHMADABAD, Gujarat
+p=0.881 y=0 tset=100 atset=81 trank=1 freq=1 [US]
+  S1: Reynolds, Afton N., D.D.S. Group | 6884 Cheney Court, Niwot, CO
+  T : Reynolds, Afton N., D.D.S. Group Group | 6885  CHENEY COURT, LONGMONT CITY, CO
+p=0.876 y=0 tset=100 atset=90 trank=1 freq=1 [US]
+  S1: Trusted Payroll Corporation | 1718 Opal Trail, Willis, TX
+  T : Trusted Payroll Corporation Corp. | 1722 OPAL TRL, PO BOX 9045, WILLIS, TX
+p=0.888 y=0 tset=100 atset=98 trank=1 freq=5 [US]
+  S1: Regional Chiropractic Inc. | OH, Chagrin Falls, 14851 County Line Road
+  T : Regional Chiropractic (Inc) | #14853 COUNTY LINE ROAD, <NULL>, CHAGRIN FALLS, OH
+p=0.978 y=0 tset=19 atset=100 trank=1 freq=1 [US]
+  S1: Gomez, Wachter & Abbott | 70 Abbott Street, Lawrence, MA
+  T : Nexpyra | ABBOTT ST, LAWRENCE, MA
+p=0.758 y=0 tset=80 atset=100 trank=1 freq=1 [India]
+  S1: Gurgaon Business Co | House No. 298/8 Bhim Nagar, Old Railway Road, Gurgaon, Haryana
+  T : GURGAON BUSINESS HOLDINGS | HOUSE NO. 298/ BHIM NAGAR, OLD RAILWAY ROAD, GURGAON, Haryana
+p=0.809 y=0 tset=100 atset=77 trank=1 freq=4 [India]
+  S1: Digital Enterprises LLP | Basement, Ground & 1St Floor, 72, Near Govt. School, Dundahera, Gugaon, Gurgaon, Haryana
+  T : डिजिटल एंटरप्राइजेज एलएलपी | GURGAON, Haryana, H. NO. 251
+p=0.951 y=0 tset=74 atset=65 trank=1 freq=25 [US]
+  S1: Frontier Cardiology | 2 1st Avenue, Islip, NY
+  T : Frontier Ffanrdcial | 222 1/2 LYNBROOK STREET, ISLIP TRERACE, NY
+p=0.772 y=0 tset=97 atset=94 trank=1 freq=2 [US]
+  S1: Heritage Trust III | 205 Hommocks Road, Mamaroneck, NY
+  T : IIIT TRUST HERITAGE | 812 HOMMOCKS RD, MAMARONECK, NY
+p=0.819 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Sunday Star Research Center | 450 Mountain View, Santa Maria, CA
+  T : SUNDAY-STAR RESEARCH | 
+p=0.929 y=0 tset=83 atset=100 trank=1 freq=1 [India]
+  S1: Meenesh Portfolio | C/O Shamsher Singh Rafipur Mukarimpur, Gorakhpur, Uttar Pradesh
+  T : Meeneique Pórtfolio | C/O SHAMSHER SINGH RAFIPUR MUKARIMPUR, GORAKHPUR, Uttar Pradesh
+p=0.988 y=0 tset=94 atset=96 trank=1 freq=1 [US]
+  S1: Blue Glass Group | 86 Maple Street, MA, Lawrence
+  T : Blue Glrss Gróup Group | 99 MAPLE STREET, LAWRENCE, MA
+p=0.786 y=0 tset=25 atset=100 trank=2 freq=3 [US]
+  S1: Middleton's Crystal Engineering | 106 Morningside Drive, Bristol, CT
+  T : Arcvantage | MORNINGSIDE DRIVE, BRISTOL, CT
+p=0.833 y=0 tset=100 atset=96 trank=1 freq=1 [US]
+  S1: Womens Health Group of Dartmouth LLC | Dartmouth, MA, 335 Old Fall River Road
+  T : Womens Health Group of | 0344 OLD FALL RIVER ROAD, DARTMOUTH, MA
+p=0.925 y=0 tset=89 atset=94 trank=1 freq=1 [India]
+  S1: Xcel Resources Private Limited | Delhi, Pana Begwan, Kanjhawala Road, Near Dada Bhaiya, Villa, Ge Bawana, North West, Delhi, H.No. 560 (560-A)
+  T : Xcel Private Baba Limited | DOOR NO 563. (560-A), PANA BEGWAN, KANJHAWALA ROAD, NEAR DADA BHAIYA, VILLA, GE BAWANA, DELHI, Delhi
+p=0.720 y=0 tset=63 atset=100 trank=1 freq=4 [India]
+  S1: Smart Properties LLP | S P No 1, Road No 2, Ganesh Nagar Colony, Narapally, Hyderabad, Telangana
+  T : స్మార్ట్ సాఫ్ట్‌వేర్ ఎల్‌ఎల్‌పీ | S P NO 2, ROAD NO 2, GANESH NAGAR COLONY, NARAPALLY, HYDERABAD, Telangana
+p=0.979 y=0 tset=100 atset=95 trank=1 freq=1 [US]
+  S1: Quex Enhanced Group | 1927 Ray Leonard Road, Hyattsville, MD
+  T : Quex Enhanced Group | 1931 RAY LEONARD ROAD, HYATTSVILLE, MD
+p=0.768 y=0 tset=100 atset=97 trank=1 freq=2 [US]
+  S1: Yoko Proffer Xflh L.L.C. | 3553 Queensway Drive, Brownsville, TX
+  T : Yoko Próffer Xflh LLC | 3556 QUEENSWAY DRIVE, TX, BROWNSVILLE
+p=0.777 y=0 tset=100 atset=97 trank=1 freq=1 [US]
+  S1: Oncology Care Associates of Harbeson L.L.C. | 20041 Doddtown Road, Harbeson, DE
+  T : Oncology Care Associates of Harbeson LLC | 20045 Doddtown Rd, HARBESON, DE
+p=0.980 y=0 tset=87 atset=100 trank=1 freq=1 [India]
+  S1: HAA Producer Care | 1024 Sector-21, Panchkula, Haryana
+  T : HRAA HRAA Producer Care Company | DOOR NO 1024 SECTOR-21, PANCHKULA, हरियाणा
+p=0.959 y=0 tset=100 atset=92 trank=1 freq=1 [US]
+  S1: Veum Resources L.L.C. | 4290 Radio Drive, Unit Apartment 257, Woodbury, MN
+  T : LLC VEUM RESOURCES | 4303 Radio Drive, WOODBURY, MN
+p=0.876 y=0 tset=100 atset=0 trank=1 freq=1 [India]
+  S1: Tricolour Services Private Limited | Thekke Kudilinkal, Cherthala, Alappuzha, Kerala
+  T : Tricolour Services | 
+p=0.958 y=0 tset=100 atset=93 trank=1 freq=1 [US]
+  S1: Kathy Bailey Blue Emerging Corporation | 619 Albany Turnpike, Chatham, NY
+  T : kathy bai1ey blue emerging corp | CHATHAM, NY, 640C ALBANY TURNPIKE
+p=0.891 y=0 tset=15 atset=99 trank=3 freq=1 [US]
+  S1: Strategic Cantor LP | 2614 Cypress Dr, Bettendorf, IA
+  T : Kélosol | 02614 CYPRESS DR, BETTENDORF, IA
+p=0.866 y=0 tset=89 atset=81 trank=2 freq=1 [US]
+  S1: Silver Engineering Holdings | 25 Maple Hill Ridge, Milan, NY
+  T : Silver  Eiingnmeesrng Holdings Holdings | 28 MAPLE HILL RDG, RED HOOK, NY
+p=0.899 y=0 tset=100 atset=88 trank=1 freq=1 [US]
+  S1: Atlantic Wholesale Partners | 171 White River Mountain Boulevard, Unit Unit 103, Hollister, MO
+  T : ATLANTIC WHOLESALE PARTNERS PÁRTNERS | 175 WHITE RIVER MOUNTAIN BLVD, PMB 6405, HOLLISTER, MO
+p=0.790 y=0 tset=100 atset=82 trank=2 freq=51 [India]
+  S1: Smart Infra Private Limited | 00, Kanha Complex, Aditya Food, Jhansi, Uttar Pradesh
+  T : स्मार्ट इंफ्रा प्राइवेट लिमिटेड | NO 214 0, JHANSI, Uttar Pradesh
+p=0.768 y=0 tset=100 atset=96 trank=1 freq=1 [US]
+  S1: Signature Energy Holdings LLC | 1 Walnut Avenue, Pelham, NY
+  T : Signature Energy Holdings Holdings | 82 Walnut Ave, PELHAM, NY
+p=0.874 y=0 tset=32 atset=100 trank=1 freq=1 [India]
+  S1: Haveli Complex Private Limited | Plot No 347, Gat No 101, Jogeswari Sun City, Haveli, Pune, Maharashtra
+  T : Avidova | HAVELI, GAT NO. 347, Maharashtra, PUNE
+p=0.881 y=0 tset=100 atset=79 trank=1 freq=9 [India]
+  S1: My Impex Limited | 78 Bentick Street, 4Th Floor, Kolkata, Kolkata, Howrah, West Bengal
+  T : মাই ইম্পেক্স লিমিটেড | B8-50/H/4, KOLKATA, West Bengal
+p=0.919 y=0 tset=22 atset=97 trank=1 freq=1 [US]
+  S1: Bebriex | 418 A Street, DC, Washington
+  T : Onyxwexflux | 418 32RD STREET, WASHINGTON, DC
+p=0.761 y=0 tset=73 atset=100 trank=1 freq=2 [India]
+  S1: As Alive (India) | Basement, A-66, A Block, Vaishali Nagar, Jaipur, Rajasthan
+  T : AS ALIVE INFRATECH SERVICES | NO ##66 BASEMENT, A-66, A BLOCK, VAISHALI NAGAR, JAIPUR, Rajasthan
+p=0.850 y=0 tset=100 atset=0 trank=2 freq=1 [India]
+  S1: Jiya Services Private Limited | 2Nd Floor, Tel Mill Gali, Ram Nagar, New Delhi, Central Delhi, H. No. L-312, Delhi
+  T : Jiya Private Limited Services | 
+p=0.826 y=0 tset=100 atset=100 trank=1 freq=1 [India]
+  S1: Golf Enterprises Pvt Ltd | Ah-44 Salt Lake City Sector-Ii Kolkata, Kolkata, Howrah, West Bengal
+  T : Pvt Golf Enterprises Ventures Ltd | AH-44 SALT LAKE CITY SECTOR-II KOLKATA, KOLKATA, HOWRAH, West Bengal
+p=0.718 y=0 tset=100 atset=94 trank=1 freq=2 [India]
+  S1: Double Trust | Rear Wing, 3Rd Floor, Vakil Square, Keb Colony, New Gurappana Palya, Bannerg, Hatta Road, Bengaluru, Bangalore, Karnataka
+  T : Double  Trust Industries | NO 70 REAR WIN,G 3RD FLOOR, VAKIL SQUARE, KEB COLONY, NEW GURAPPANA PALYA, BANNERG, HATTA ROAD, BENGALURU, ಕರ್ನಾಟಕ
+p=0.778 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Red Seafood LP | 3617 Sunrise Pines Drive, Rancho Cordova, CA
+  T : RED SEAFOOD (LP) | 
+p=0.837 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Caor Group | 773 Old Dana Road, NC, Hendersonville
+  T : D I +-Y Caor Group | 
+p=0.967 y=0 tset=100 atset=91 trank=1 freq=1 [US]
+  S1: KRS Electricity L.L.C. | 1804 Old Barn Road, Rocky Mount, NC
+  T : Krs Electricity Llc | 1807 OLD BARN ROAD, NC, ROCKY MT
+p=0.870 y=0 tset=100 atset=98 trank=1 freq=1 [India]
+  S1: Smit Enterprises | C/O Rollsmooth Engineering Co, Plot No K/1/283/4 Gidc 2 Nd Phase Village Wadhwan, Wadhwan, Surendranagar, Gujarat
+  T : Smit Enterprises  LLP | ગુજરાત, NO 026 C/O ROLLSMOOTH ENGINEERING CO, PLOT NO K/1/283/4 GIDC 2 ND PHASE VILLAGE WADHWAN, WADHWAN
+p=0.807 y=0 tset=96 atset=0 trank=1 freq=2 [US]
+  S1: Highland Safe Truist PLLC | 1253 Stanford Avenue, Saint Paul, MN
+  T : Highland Sade Truist PLLC | 
+p=0.714 y=0 tset=83 atset=93 trank=1 freq=2 [India]
+  S1: GVH Technologies Pvt Ltd | Telangana, Hyderabad, Secunderabad, D.No.30-265/20/G-4/202, Flat No.202, P. No.G-4, 2Nd Floor, Vasavi Residency, Sainathpuram, A S Rao Nagar, Kapra
+  T : GVH TRADING LTD PVT | NO 30-265/20/G-4/203 , FLAT NO.202, P. NO.G-4, 2ND FLOOR, VASAVI RESIDENCY, SAINATHPURAM, A S RAO NAGAR, KAPRA, SECUNEDRABAD, Telangana
+p=0.905 y=0 tset=100 atset=0 trank=1 freq=1 [India]
+  S1: Banaras Educational Society | 301 3Rd Flr Crystal Plaza, New Link Rd, Maharashtra, Mumbai
+  T : Mr Banaras Educational Society | 
+p=0.800 y=0 tset=13 atset=100 trank=1 freq=1 [US]
+  S1: Elias Allied Pan Inc | 15826 Misty Drive, Unit #204, Happy Valley, OR
+  T : SP.COM | 15826 MISTY DR, HAPPY VALLEY, OR
+p=0.818 y=0 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Eye Allied Center | 203 Mitchell Road, Memphis, TN
+  T : Eye  Allied Center | 
+p=0.741 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Rea Saddler Trusted Huntington LLC | 1240 6th Street, Moscow, ID
+  T : Rea  Saddler Trusted Huntington | 
+p=0.987 y=0 tset=96 atset=100 trank=1 freq=1 [US]
+  S1: ATK One LLC | 88 Johnson Road, Mashpee, MA
+  T : AHTK One LLC | 88 JOHNSON ROAD, MASHPEE, MA
+p=0.738 y=0 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Logistics LLC | 611 Maine Avenue, Fort Thomas, KY
+  T : Logistics Llc | 
+p=0.947 y=0 tset=18 atset=100 trank=1 freq=1 [US]
+  S1: Ciel's Diner | 422 Riverpointe Drive, Dayton, KY
+  T : Ariarizavio | 422 RIVERPOINTE DR, DAYTON TOWNSHIP, KY
+p=0.931 y=0 tset=100 atset=100 trank=1 freq=90 [US]
+  S1: Department of Aging | 10-46 46 Road, Long Island City, NY
+  T : Department of Aging LLC | 10-67 46 ROAD, LONG ISLAND CITY, NY
+p=0.871 y=0 tset=83 atset=94 trank=1 freq=50 [US]
+  S1: Trinity Community Church | 2337 Stockbridge Road, Akron, OH
+  T : TRINITY COMMUNITY-PARTNERS PARTNERS | 2358 STOCKBRIDGE ROAD, AKRON, OH
+p=0.953 y=0 tset=100 atset=98 trank=1 freq=1 [US]
+  S1: Metropolitan Quetta, Inc. | 316 Huntington Avenue, Unit 16, Boston, MA
+  T : Metropolitan Quetta, Inc | 318 Huntington Avenue, Unit 16, Boston, Massachusetts
+p=0.725 y=0 tset=81 atset=95 trank=1 freq=1 [India]
+  S1: Albatross Rights Group | Madhya Pradesh, Bhopal, Shalimar Seven Garden, Hoshangabad Road, Bhopal, D-82 Jasmine
+  T : albatross group international | D-93 Jasmine, Shalimar Seven Garden, Hoshangabad Road, Bhopal, MP
+p=0.755 y=0 tset=91 atset=0 trank=1 freq=1 [India]
+  S1: Venkateshwara (india) Pvt Ltd | 420/1, G.T. Road, Mahesh Serampore, Serampur Uttarpara, Hooghly, West Bengal
+  T : Venkateshwara Pvt Ltd Center | 
+p=0.721 y=0 tset=100 atset=0 trank=1 freq=1 [India]
+  S1: Navjivan Institute of Technology | 91 N S Rd3Rd Fl, Kolkata, Calcutta, West Bengal
+  T : Navjivan Institute of Technology Private | 
+p=0.832 y=0 tset=100 atset=59 trank=4 freq=88 [India]
+  S1: North Technology Private Limited | Maharashtra, Badrika Ashram 1St Kaetwadilane, 8, Mumbai
+  T : North Tech-Private-Limited | 1St Floor, Mumbai, GJ
+p=0.775 y=0 tset=92 atset=0 trank=1 freq=1 [US]
+  S1: NTP Manufacturing P.C. | 745 Pony Lane, City Of Sun Prairie, WI
+  T : NTP Manufacturing Service | 
+p=0.771 y=0 tset=100 atset=0 trank=4 freq=1 [US]
+  S1: OZ Processing Inc. | 125 Amherst Court, Bullard, TX
+  T : OZ Processing Inc | 
+p=0.751 y=0 tset=100 atset=90 trank=1 freq=4 [India]
+  S1: Sahyadri Seva Samiti | 2-3-917/1, Arunodaya Colony Road No. 1, Nagole, Hyderabad, Rangareddy, Telangana
+  T : Sahyadri Seva Samiti Enterprises | Rangareddy, 002-3-917/8, TG, Rangareddy
+p=0.721 y=0 tset=79 atset=91 trank=2 freq=46 [India]
+  S1: Jay Impex Private Limited | Pl 40 Khodiyar Nagar Soc, Nr Mansarovar School, Choryasi, Surat, Gujarat
+  T : Jay Inlna Limited | No 40, Surat, GJ
+p=0.891 y=0 tset=69 atset=100 trank=1 freq=1 [India]
+  S1: Vaibhav Ai Public Limited | Pune, Maharashtra, Sn-259/1/A Nr. Floor Mill Centre Kalwad Lohagaon Pune
+  T : Vaibhav Ai Holdings | Sn-259/1/a Nr. Floor Mill Centre Kalwad Lohagaon Pune, <NULL>, Poona, Dhanore, MH
+p=0.745 y=0 tset=100 atset=100 trank=1 freq=1 [India]
+  S1: Trichy Empire | Lotus House, Flat No .101 Sr.No 23/6B, Near Iris Society, Balewadi, Pune, Maharashtra
+  T : Trichy Empire Industries | No 74 Lotus House, Flat No .101 Sr.no 23/6B, Near Iris Society, Balewadi, Pune, MH
+p=0.919 y=0 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Oneim | 11621 Hitching Post Lane, Rockville, MD
+  T : #oneim | 
+p=0.714 y=0 tset=85 atset=100 trank=1 freq=1 [US]
+  S1: 242 Church Road Apartments Inc | 3 Map Hill Drive, Unit 4 D 3, Wellesley, MA
+  T : 242 Church Road Ápartments Partners | 24 Map Hill Drive, Unit 4 D 3, Wellesley, Massachusetts
+p=0.799 y=0 tset=100 atset=94 trank=1 freq=1 [US]
+  S1: Flor Koff Onfolio Inc. | 3730 111th Street, Chicago, IL
+  T : Flor Koff Onfolio Inc | 3751 111th St, Illinois, Chicago
+p=0.830 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Young Atlantic Inc | 20539 Spring Bluff Lane, Spring, TX
+  T : Young Atlantic | 
+p=0.783 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Holmes Pinnacle Truist Inc | 106 14th Street, Unit Apartment 3, Troy, NY
+  T : Holmes Pínnacle | 
+p=0.974 y=0 tset=86 atset=0 trank=1 freq=1 [India]
+  S1: Radiance & Sons LLP | 26-A Nadir Colony Shamla Hills, Bhopal, Madhya Pradesh
+  T : Radiance & LLP Center | 
+p=0.883 y=0 tset=89 atset=99 trank=1 freq=1 [US]
+  S1: Cardiology Prime Partners Corporation | St Paul, NE, 663 8th Avenue
+  T : Cardiology Partners Prime Group | 66 8th Ave, St Paul, Nebraska
+p=0.977 y=0 tset=46 atset=100 trank=1 freq=49 [India]
+  S1: Indian Developers Private Limited | H.No.3-3-107/23 Venkateshwara Colony, Hyderguda, Rajendr, A Nagar, Hyderabad, Telangana
+  T : Ítdeveloperscom | H.no 3-107, Hyderabad, తెలంగాణ
+p=0.703 y=0 tset=100 atset=0 trank=1 freq=3 [US]
+  S1: Cabrera Pacific Networks LLC | 254 145th Place, Bellevue, WA
+  T : Cabrera Networks Pacific LLC | 
+p=0.764 y=0 tset=63 atset=97 trank=2 freq=1 [US]
+  S1: Cobalt Hudson | VA, 2609 Loudoun Street, Virginia Beach City
+  T : Cobalt Partners Partners | 2610 Loudoun St, Virginia Beach City, Virginia
+p=0.900 y=0 tset=100 atset=95 trank=1 freq=10 [India]
+  S1: Sree Exports | K-301 Ashok Nagar L.T.Road, Borivali (West), Mumbai, Mumbai City, Maharashtra
+  T : Perfect Sree Exports Exports | A2 / 301, Mumbai, Mumbai City, MH
+p=0.716 y=0 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Continental Financial LLC | NC, Graham, 6012 River Run
+  T : Continental Financial-LLC | 
+p=0.976 y=0 tset=100 atset=59 trank=2 freq=38 [India]
+  S1: Great Media Private Limited | Delhi, First Floor, Swaroop Nagar, A-3, Delhi, North West
+  T : Great Media Private Ltd | B3/401, Delhi, North East, DL
+p=0.946 y=0 tset=74 atset=97 trank=1 freq=1 [India]
+  S1: EDP Agrofed Private Limited | 62/3 Ishwar Mitra Road, Mitra Colony, Kolkata, Kolkata, Howrah, West Bengal
+  T : Limited EDPA Agrofed Center | No 62/3 Ishwar Mitra Road, Mitra Colony, Kolkata, Kolkata, Howrah, পশ্চিমবঙ্গ
+p=0.755 y=0 tset=89 atset=0 trank=1 freq=1 [US]
+  S1: Coastal Modern Income, Inc | 1971 State Street, Unit 222, Columbus, IN
+  T : Coastal Modern Inc Center | 
+p=0.977 y=0 tset=100 atset=43 trank=1 freq=1 [US]
+  S1: Quick Solutions Corporation | 560 37, Bombay, NY
+  T : quick solutions corp | 573 37, Hogansburg CITY, New York
+p=0.962 y=0 tset=53 atset=93 trank=8 freq=1 [India]
+  S1: Ratna Hospital | H.No. 35/3Rt, Ground Floor, Vijaya Nagar, Near Andhra Bank, Hyderabad, Telangana
+  T : Ratna Enterprises | Hyderabad, H.no. 35/5Rt., తెలంగాణ
+p=0.810 y=0 tset=100 atset=76 trank=1 freq=1 [India]
+  S1: East Delhi Minerals Limited | C-10 Third Floor Preet Vihar, Nirman Vihar Delhi, East Delhi, Delhi
+  T : Delhi Minerals | H.no 10, Delhi, East Delhi, DL
+p=0.941 y=0 tset=100 atset=88 trank=2 freq=48 [India]
+  S1: Future Products Private Limited | 8, Mohan Housing Compound, Isanpur Road Narol, Ahmedabad, Gujarat
+  T : ફ્યુચર પ્રોડક્ટ્સ પ્રાઇવેટ લિમિટેડ | A-40/8, Ahmedabad, ગુજરાત
+p=0.715 y=0 tset=100 atset=90 trank=1 freq=1 [India]
+  S1: Dj Valley Group | Rajasthan, Shop No Kk1/G-1, Jaipur, G2 Ground Floor, Plot No. 1, Krishna Kripa 1, Subhash Nagar, Jaipur
+  T : Dj Valley Group LLP | Shop No Kk2/g-3, Jaipur, राजस्थान
+p=0.732 y=0 tset=67 atset=100 trank=1 freq=78 [US]
+  S1: First Zion | 14747 Draper Pointe Way, Unit 223, Draper City (sl Co), UT
+  T : First Zn Group | 14747 Draper Pointe Way, Draper City (Sl Co), Utah
+p=0.734 y=0 tset=90 atset=0 trank=1 freq=1 [India]
+  S1: Arudra Cold Pvt. Ltd. | Office Number 15125, 15 Floor, Gaur City Mall, Noida, Gautam Buddha Nagar, Uttar Pradesh
+  T : Arudra Pvt Ltd  Center | 
+p=0.900 y=0 tset=93 atset=100 trank=1 freq=1 [India]
+  S1: Ballygunge Man Private Limited | Survey No. 125/1, Row House No.C-12, Omega Heritage, Dsk Road, Dhayari, Pune, Maharashtra
+  T : Private Ballygunge Plantations [Limited] | Survey No. 125, Pune, MH
+p=0.746 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Sirius Service PC | 165 Lisha Kill Road, Colonie, NY
+  T : Sirius Service | 
+p=0.999 y=0 tset=45 atset=97 trank=2 freq=1 [India]
+  S1: Preeti Business Private Limited | Shubh Laxmi, Apt Ss Nagar Fpl No 569/1 Nr Shree Clinic, Pune, Maharashtra
+  T : teprivate.com | Shubh Laxmi Apts, S Nagar F Plno.569/1, Nr.shree Clinic, Pune, <NULL>, MH
+p=0.769 y=0 tset=98 atset=0 trank=1 freq=1 [US]
+  S1: Glyphyx Service Inc | 2300 Rosinweed Way, Unit 119, Raleigh, NC
+  T : Glyphyx Inc Services | 
+p=0.934 y=0 tset=100 atset=64 trank=1 freq=2 [US]
+  S1: Ridgeline Urban Group | 959 Riverview Road, Clifton Park, NY
+  T : Ridgeline Urban Group | Rexofrd Township, 964 Riverview Rd, New York
+p=0.702 y=0 tset=12 atset=100 trank=1 freq=4 [US]
+  S1: Dique | 9626 Hinsdale Place, Ken Caryl, CO
+  T : Rízairipyra | Hinsdale Place, Ken Caryl, Colorado
+p=0.988 y=0 tset=81 atset=100 trank=1 freq=8 [India]
+  S1: Digital Construction Limited | Plt No 176 Dr Ambedkar Co Lashkari Bagh, Nagpur, Maharashtra
+  T : Digital Limited Center | 176, Nagpur, महाराष्ट्र
+p=0.803 y=0 tset=100 atset=94 trank=1 freq=1 [India]
+  S1: Koshi Sangh | P.K.Complex, Room No.Cp9/762 Chengalayi (P O), Sreekandapuram Via, Kannur, Kerala
+  T : Koshi Sangh Limited | 98 P.k.complex, Kannur, Keralam
+p=0.917 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Secure Diamond Technology | 9203 Holz Lane, Town Of Saratoga, WI
+  T : Secure Diamond Technology | 
+p=0.897 y=0 tset=91 atset=100 trank=1 freq=2 [US]
+  S1: Wells and Frisbie Aria Inc | 1705 Lubbock Street, Houston, TX
+  T : Aylor and Frisbie Aria Inc | 1705 Lubbock Street, Houston, Texas
+p=0.816 y=0 tset=100 atset=99 trank=1 freq=34 [US]
+  S1: Harbor Charities | TX, Houston, 10907 Wicklowe Street
+  T : Harbor Charities CORP | 1090 Wicklowe Street, Houston, Texas
+p=0.846 y=0 tset=100 atset=81 trank=1 freq=50 [India]
+  S1: Urban Infrastructure Private Limited | G/F Block- J 113-114, Sumel Business Park-6, Nr. Dudheshwar Circle Ahmedabad, Ahmadabad City, Ahmedabad, Gujarat
+  T : અર્બન ઇન્ફ્રાસ્ટ્રક્ચર પ્રાઇવેટ લિમિટેડ | Ahmedabad, ગુજરાત, H.no 24, Ahmedabad
+p=0.731 y=0 tset=100 atset=95 trank=1 freq=1 [India]
+  S1: Sharda Foundation | C/O Alka Jain, A-27/13 Ground Floor, Dlf Phase-I, Gurugram, Gurgaon, Haryana
+  T : Sharda Foundation  Infratech #49254 | हरियाणा, No #74 C/o Alka Jain, Gurgaon, A-27/13 Ground Floor, Dlf Phase-i, Gurgaon
+p=0.906 y=0 tset=100 atset=97 trank=1 freq=1 [US]
+  S1: Her Cascade Sizzle L.L.C. | 515 San Marcos Street, Pearsall, TX
+  T : Her Cascade Sízzle LLC | 518 San Marcos Street, Pearsall, Texas
+p=0.735 y=0 tset=100 atset=0 trank=1 freq=2 [India]
+  S1: Stylus Realty (India) Ltd | 12 Gurudwara Road, Dera Faloli Chinar Bagh, Urban Estate (Patiala), Patiala, Punjab
+  T : Stylus Realty (India) Ltd. | 
+p=0.746 y=0 tset=93 atset=88 trank=1 freq=1 [India]
+  S1: PY Consultancy | No.2/472/A, Agnesh Nivas, Kalari, Pady, Kasaragod, Kasargod, Kerala
+  T : PR Consultancy | #2/472/A, Kasaragod, Kasargod, KL
+p=0.830 y=0 tset=100 atset=94 trank=1 freq=2 [US]
+  S1: Platinum Health Holdings | 18946 Bonanza Way, Gaithersburg, MD
+  T : Platinum Héalth Holdings Holdings | Maryland, 18955 Bonanza Way, Githersburg
+p=0.762 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Pieper, Harris and Skidmore Aktiengesellschaft L.L.C. | NC, Pittsboro, 170 Valley View Lane
+  T : Pieper,-Harris And Skidmore Aktiengesellschaft | 
+p=0.896 y=0 tset=100 atset=81 trank=2 freq=1 [India]
+  S1: Coimbatore Foundation Center | 10/1 Rathnapuri, Coimbatore, Tamil Nadu
+  T : Coimbatore Foundation | Door No: 1, Coimbatore, தமிழ்நாடு
+p=0.727 y=0 tset=98 atset=100 trank=1 freq=1 [India]
+  S1: EG International Ltd | Innov8Mantricommerciotowe, Ra5Thfl51Deverabisanahlli, Bangalore South, Bangalore, Karnataka
+  T : EGJ International Ltd. | Innov8mantricommerciotowe, Ra5thfl51deverabisanahlli, Bangalore South, Bangalore, KA
+p=0.926 y=0 tset=62 atset=100 trank=1 freq=2 [India]
+  S1: Taraya Technology Pvt Ltd | P.No.126, Chenna Reddy Enclave Narapally, Ghatkesar, Hyderabad, Rangareddy, Telangana
+  T : Taraova Pvt Ltd  Center #7693 | Rangareddy, Chenna Reddy Enclave Narapally, Ghatkesar, Hyderabad, తెలంగాణ, P.no.126
+p=0.778 y=0 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Demuth, Perez & Cortez Inc | 42 Hamilton Avenue, Auburn, NY
+  T : Demuth, Cortez & Perez Inc | 
+p=0.731 y=0 tset=89 atset=89 trank=1 freq=5 [India]
+  S1: Venkateshwara & Brothers Private Limited | P.No 2181, Sonepat, Haryana
+  T : Venkateshwara & Brothers Infratech Private | Sonepat, HR, P.no, Delhi
+p=0.864 y=0 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Diaz Anchor Nippon | 72 Mary Aldis Lane, Cortland, IL
+  T : Diaz Anch0r | 
+p=0.914 y=0 tset=100 atset=86 trank=1 freq=1 [US]
+  S1: Hebert Rock Inc. | 1878 Southside Road, Lincolnton, NC
+  T : Inc Hebert Rock | 1879 Southside Road, Lincolnton, North Carolina
+p=0.771 y=0 tset=95 atset=100 trank=1 freq=1 [US]
+  S1: EY Cascade Pyrophyte | Claymont, DE, 3870 Green Street
+  T : EN Cáscáde Pyrophyte | 3870 Green St, Claymont, Delaware
+p=0.985 y=0 tset=42 atset=100 trank=1 freq=2 [India]
+  S1: Rama Foundation | Flat-74-Dda Sfs Pkt I Ii Sect-4 Cate Dwarka New Delhi, Delhi, South West Delhi, Delhi
+  T : Dr Rama Ventures Services | South West Delhi, DL, Flat-74-dda Sfs Pkt I Ii Sect-4 Cate Dwarka New Delhi, Delhi
+p=0.903 y=0 tset=94 atset=94 trank=1 freq=1 [US]
+  S1: Atlanta Surgical Clinic Inc. | 1220 Dekalb Avenue, Atlanta, GA
+  T : Atlanta Sucial Clinic Inc | 1233 Dekalb Avenue, Atlanta, Georgia
+p=0.777 y=0 tset=100 atset=0 trank=3 freq=1 [US]
+  S1: Espinoza, Rios & Sturm | Mount Washington, 11307 44, KY
+  T : Espinoza, Rios & Sturm | 
+p=0.830 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: United Fact Inc | 313 Elliott Street, Syracuse, NY
+  T : United [Fact] | 
+p=0.796 y=0 tset=100 atset=0 trank=3 freq=1 [US]
+  S1: Sterling Intercontinental Inc. | 54 Silver Creek Road, Gilbert, AZ
+  T : Sterling Intercontinental Inc | 
+p=0.944 y=0 tset=88 atset=94 trank=1 freq=1 [US]
+  S1: VC Continental Arch L.L.C. | 420 Bridge Street, Franklin, TN
+  T : LLC VC Cohtinsenebal Arch | 425 Bridge Street, Franklin CITY, Tennessee
+p=0.919 y=0 tset=100 atset=95 trank=1 freq=3 [US]
+  S1: Commission on Finance Partners | 248 Arthur Street, Gary, IN
+  T : Commission on Finance Partners [Partners] | 55 Arthur St, Gary, Indiana
+p=0.953 y=0 tset=96 atset=100 trank=1 freq=2 [US]
+  S1: XIU Brokerage | 12555 Montego Plaza, Dallas, TX
+  T : XIIU Brokerage | ##12555 Montego Plaza, Dallas, Texas
+p=0.766 y=0 tset=88 atset=86 trank=1 freq=43 [India]
+  S1: Surya Healthcare Private Limited | S-1, G731/1, Bombay Ac Mkt, Mm Malviya Marg, Tardeo, Mumbai, Maharashtra
+  T : Surya Healthcare Limited-Service | Plot-17, Bombay, Mumbai, MH
+p=0.743 y=0 tset=100 atset=91 trank=1 freq=4 [India]
+  S1: New Solutions | D. No. 1478, I Floor, C-19, Block Bda Flats Austin Town, Bangalore, Karnataka
+  T : All New Solutions Company | Door No 19, Bangalore, KA, Bangalore
+p=0.983 y=0 tset=100 atset=85 trank=2 freq=37 [India]
+  S1: All Business Private Limited | C-503, Maharashtra, Mumbai, Rustomjee Seasons, Madhusudan Kalelkar Marg, Mumbai
+  T : All Business प्राइवेट लिमिटेड | 503, Mumbai, Charkop, MH
+p=0.830 y=0 tset=100 atset=93 trank=1 freq=1 [US]
+  S1: Complete Data Technologies Inc. | 588 Clifford Avenue, Akron, OH
+  T : Complete Data-Technologies Inc | 591-593 Clifford Avenue, Akron, Ohio
+p=0.888 y=0 tset=89 atset=88 trank=1 freq=1 [India]
+  S1: Tulsipur Films Pvt Ltd | Flat No:-303 Tulasi Vatika, Matha Sahi, Tulsipur, Cuttack, Orissa
+  T : Tulsipur Pvt Tech Ltd | #75 Flat No:-310 Tulasi Vatika, Cuttack, Tulsipur, OD
+p=0.999 y=0 tset=100 atset=88 trank=1 freq=39 [US]
+  S1: Oncology Associates Inc. | 47 Hudson Terrace, Unit Apartment 5, Sleepy Hollow, NY
+  T : Oncology  Associates Inc | 68 Hudson Ter, # Apartment 5, Sleepy Hollow, New York
+p=0.727 y=0 tset=100 atset=100 trank=1 freq=45 [India]
+  S1: Gujarat Infra Private Limited | 01 Shanti Ashish A Co Op Hsgsoc Ltd Panchratna Park Nr Shivar Garden Mira Road (E), Thane, Maharashtra
+  T : Infra | 01 Shanti Ashish A Co Op Hsgsoc Ltd Panchratna Park Nr Shivar Garden Mira Road (E), Thane, Maharashtra
+p=0.977 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Khan, Stacy, DO LP | 11927 Barrett Brae Drive, TX, Houston
+  T : Khan, Stacy, DO LP | 
+p=0.961 y=0 tset=100 atset=96 trank=1 freq=82 [US]
+  S1: Lantern Inc. | 534 Roland Avenue, TN, Jackson
+  T : Inc Lantern | 535C Roland Ave, Jackson, Tennessee
+p=0.859 y=0 tset=98 atset=100 trank=1 freq=1 [India]
+  S1: GB Clinical Pvt Ltd | Gautamnagar Ward Paoni, Paoni, Bhandara, Maharashtra
+  T : *** GBB Pvt Clinical (Ltd) | Doro No 39 Gautamnagar Ward Paoni, Paoni, Bhandara, MH
+p=0.947 y=0 tset=100 atset=97 trank=1 freq=1 [US]
+  S1: Palmer, Bailey and Toole Inc. | 23107 Forebear Drive, Katy, TX
+  T : Palmer, Bailey and Toole Inc | 23109 Forebear Drive, <NULL>, Katy, Texas
+p=0.783 y=0 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Eastern Hospitality Group | 10 5th Avenue, Earleville, MD
+  T : eastern hospitality group | 
+p=0.870 y=0 tset=100 atset=89 trank=1 freq=37 [India]
+  S1: Creative Estate Private Limited | #83, 3Rd Main Road, Indiragandhi Street Udayanagar, Narayanapura, Doorvaninagar, Bengaluru, Bangalore, Karnataka
+  T : Ss Creative Estate Private Ltd | H.no 3, Bengaluru, Bangalore, KA
+p=0.828 y=0 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Schantz, Graves and Witty Lakeshore | 1322 Dean Road, Unit 608, Auburn, AL
+  T : Schantz, Graves  and Witty Lakeshore | 
+p=0.988 y=0 tset=85 atset=100 trank=1 freq=42 [India]
+  S1: Apex Consultants Private Limited | No. 11, 2Nd Floor, Castle Street, Ashok Nagar, Bengaluru, Bengaluru, Bangalore, Karnataka
+  T : Apex Private Limited Center | 2Nd Floor, Bengaluru, Bangalore, ಕರ್ನಾಟಕ
+p=0.995 y=0 tset=100 atset=64 trank=1 freq=3 [India]
+  S1: Vision Management LLP | Epic-E 8, Gidc, Savli, Vadodara, Gujarat
+  T : વિઝન મેનેજમેન્ટ એલએલપી | 8/B, Daskroi, <NULL>, GJ
+p=0.838 y=0 tset=73 atset=100 trank=1 freq=1 [India]
+  S1: BJ Nidhi Group | 3599/B Top Ten Dev, Ahmednagar Sangamner, Sangamner, Ahmed Nagar, Maharashtra
+  T : BJ Saraswati Group | B Top Ten Dev, Sangamner, Ahmed Nagar, MH
+p=0.820 y=0 tset=100 atset=73 trank=2 freq=43 [India]
+  S1: Supreme Systems Pvt Ltd | 7/C Kiron Sankar Roy Road, Hastings Chambers, Kolkata, Kolkata, Howrah, West Bengal
+  T : সুপ্রিম সিস্টেমস প্রাইভেট লিমিটেড | Kolkata, No. 837/7 1, Howrah, WB
+p=0.854 y=0 tset=100 atset=99 trank=1 freq=1 [US]
+  S1: YU Asset | Town Of Wilton, 21731 King Road, WI
+  T : YU Asset Ltd | 2173 King Road, Town Of Wilton, Wisconsin
+p=0.831 y=0 tset=100 atset=78 trank=1 freq=1 [US]
+  S1: First Packaging Corporation | 6652 Summer Darby Lane, Charlotte, NC
+  T : First Páckaging Corporation Corp | 6665 Summer Darby Lane, Chalrotte, North Carolina
+p=0.832 y=0 tset=96 atset=100 trank=1 freq=1 [India]
+  S1: OYE It Pvt. Ltd. | Tal Baramati, Datta, Mandir Khandobanagar, Baramati, Pune, Maharashtra
+  T : OYE Chit Pvt. Ltd. | 74 Tal Baramati, Datta, Mandir Khandobanagar, Pune, Baramati, MH
+p=0.889 y=0 tset=97 atset=100 trank=1 freq=3 [US]
+  S1: Gabie Couch, DO | 22 Hillis Road, Boston, MA
+  T : COUCH,, GABIE DVO | 22 Hillis Rd, Boston, Massachusetts
+p=0.759 y=0 tset=100 atset=94 trank=1 freq=47 [India]
+  S1: Classic Foods Private Limited | M-Z/13-14, Centre Point, R.C. Dutt Road, Alkapuri, Baroda, Vadodara, Gujarat
+  T : ક્લાસિક ફૂડ્સ પ્રાઇવેટ લિમિટેડ | 12, Baroda, Vadodara, GJ
+
+==================== FALSE NEGATIVES (in candidates) (17885) ====================
+p=0.051 y=1 tset=100 atset=97 trank=1 freq=59 [US]
+  S1: Downtown Deli | 104 Main Street, Yale, IL
+  T : Downtown Deli Corp | 103 MAIN STREET, YALE, IL
+p=0.318 y=1 tset=100 atset=0 trank=2 freq=3 [US]
+  S1: Regional Dynamic Center | 15152 Quintana Court, MN, Ramsey
+  T : Regional Dynamic Center | 
+p=0.139 y=1 tset=100 atset=71 trank=1 freq=10 [US]
+  S1: Sterling PC | Lynnwood, Unit 846, 3000 184th Street, WA
+  T : STERLING PC CENTER | 2998 184ND SAINT, LYNNWOOD, WA
+p=0.370 y=1 tset=100 atset=0 trank=4 freq=3 [India]
+  S1: Jai Advisors Pvt. Ltd. | 2 11 Gandhigram Sakinaka, Kurla Saki Vihar Road, Mumbai, Maharashtra
+  T : JAI ADVISORS-PVT. LTD | 
+p=0.544 y=1 tset=100 atset=0 trank=2 freq=2 [India]
+  S1: Agr & Sons Pvt Ltd | Plot No 62 Balaji Nagar, B N Reddy Nagar Karmanghat, Hayathnagar, Hyderabad, Telangana
+  T : Agr & Sons Pvt Limited | 
+p=0.350 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Pipefitters Local 836 | 5615 Ottawa Court, Mishawaka, IN
+  T : Pipefitters Local 836 LLC | 
+p=0.304 y=1 tset=80 atset=0 trank=8 freq=1 [India]
+  S1: Kairav Systems Limited | 240 First Floor Mummorthi, Pandhapattu Vill And Post, Tiruvannamalai, Tamil Nadu
+  T : KAIRAV LIMITED-CENTER | 
+p=0.105 y=1 tset=82 atset=96 trank=1 freq=1 [India]
+  S1: Coimbatore Marketing Group | 1/684 F, Sathi Main Road Kunnathur, Annur, Coimbatore, Tamil Nadu
+  T : Coimbatore Group-Center | 1677 F, SATHI MAIN ROAD KUNNATHUR, ANNUR, COIMBATORE, Tamil Nadu
+p=0.246 y=1 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: U+ Steel P.C. | 1900 Forestville Road, Wake Forest, NC
+  T : U+  Steel | 
+p=0.370 y=1 tset=100 atset=0 trank=1 freq=1 [US]
+  S1: Community Beacon Center Inc. | 1010 Olive Street, Arlington Heights, IL
+  T : Community Beacon  Center | 
+p=0.502 y=1 tset=72 atset=78 trank=1 freq=1 [US]
+  S1: Gulf Cardiology Associates | 2129 1450, Clinton, UT
+  T : 6ULF COAFRDILGOY ASSOCIATES | 2129 1450, CLEARFIELD, UT
+p=0.065 y=1 tset=100 atset=0 trank=5 freq=1 [US]
+  S1: Hackett Capital P.C. | 3510 Macomb Street, Washington, DC
+  T : Hackett Capital | 
+p=0.308 y=1 tset=100 atset=0 trank=1 freq=4 [US]
+  S1: Randy Najera Grand Sui Inc | 19200 Wapakoneta Cridersville Road, Wapakoneta, OH
+  T : RANDY NAJERA GRAND SUI INC | 
+p=0.238 y=1 tset=95 atset=95 trank=1 freq=1 [India]
+  S1: Western Infra Private Limited | Flat No. 1, S No 30/3/4, Hari Apartments, Pune City, Pune, Maharashtra
+  T : Westem Infra Private Limited | महाराष्ट्र, DOOR NO 1- , S NO 30/3/4, HARI APARTMENTS, PUNE CITY
+p=0.079 y=1 tset=100 atset=84 trank=1 freq=1 [US]
+  S1: Roxy Sanders, MD | 252 Booker Street, Atlanta, GA
+  T : ... Roxy Sanders,  MD Ltd | 65 BOOKHR STREET, PMB 9852, ATLANTA, GA
+p=0.386 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Smith Runway | 14526 New Hope Road, Dardanelle, AR
+  T : Smith Runway-LLC | 
+p=0.105 y=1 tset=29 atset=90 trank=7 freq=4 [India]
+  S1: IBH Cargo Pvt Ltd | 102, Jai Ambe Society, New Juhu- Versova Link Road Andheri (West), Mumbai, Mumbai City, Maharashtra
+  T : icargo.com #42726 | 102, NAVI MUMBAI, MUMBAI, Maharashtra
+p=0.287 y=1 tset=77 atset=0 trank=2 freq=4 [US]
+  S1: 24HR Fitness P.C. | 105 Washington Street, Mount Carroll, IL
+  T : 24HR P.C. PÁRTNERS | 
+p=0.154 y=1 tset=100 atset=0 trank=3 freq=1 [US]
+  S1: Clean Institutions Partners | 219 Cedar Avenue, Unit Apt 4, Flagstaff, AZ
+  T : Clean Ínstitutions | 
+p=0.189 y=1 tset=100 atset=0 trank=1 freq=5 [US]
+  S1: Eye Select Specialists | 78 Park Lane, Oyster Bay, NY
+  T : Eye Specialists Select | 
+p=0.035 y=1 tset=100 atset=0 trank=6 freq=14 [US]
+  S1: 7-Point | 115 2nd Street, New Prague, MN
+  T : 7-Point Inc | 
+p=0.458 y=1 tset=83 atset=98 trank=1 freq=1 [US]
+  S1: Interstate Rithm LLC | 1405 Pointe Drive, Lake Saint Louis, MO
+  T : lnterstate Rithm | MO, 1405  POINTE DR, LKAE SAINT LOUIS
+p=0.051 y=1 tset=100 atset=0 trank=1 freq=2 [India]
+  S1: Vivek Brothers Private Limited | 25/419/A, Lakshman Moulik Sarani Sealpara, Kadamtala, Jalpaiguri, West Bengal
+  T : Vivek (Brothers) | 
+p=0.258 y=1 tset=93 atset=0 trank=1 freq=3 [US]
+  S1: Danika Castaneda Secure Montage Inc | VA, 3913 Kalona Road, Portsmouth City
+  T : DANIKA CASTANEDA MONTAGE INC SERVICES | 
+p=0.299 y=1 tset=26 atset=95 trank=6 freq=3 [India]
+  S1: Varshesh Kalp Ltd | A-49 Third Floor, Sector-80, Noida, Gautam Buddha Nagar, Uttar Pradesh
+  T : Halosolsol | A-49 THIRD FLOOR, U P, उत्तर प्रदेश
+p=0.184 y=1 tset=100 atset=0 trank=7 freq=4 [US]
+  S1: Tidyne LLC | 601 Juneau Avenue, Orange City, IA
+  T : TIDYNE L.L.C. | 
+p=0.001 y=1 tset=24 atset=97 trank=5 freq=86 [US]
+  S1: Raven | 505 Elmwood Avenue, Unit Apartment 11B, Buffalo, NY
+  T : Novinovicalo | BUFFALO, 505-B ELMWOOD AVENUE, NY
+p=0.071 y=1 tset=100 atset=75 trank=1 freq=99 [US]
+  S1: Internal Medicine Center LLC | 826 Parker Street, Unit 3, Boston, MA
+  T : INTERNAL MEDICINE CENTER LLC | 26 PARKER ST, ROXBURY CORSSING CDP, MA
+p=0.280 y=1 tset=100 atset=95 trank=1 freq=19 [US]
+  S1: Blue Association LLC | 450 Craig Street, Reeds Spring, MO
+  T : ASSOCIATION BLUE BLUE | 433 CRAIG ST, MO, REEDS SPRING
+p=0.112 y=1 tset=100 atset=0 trank=4 freq=3 [US]
+  S1: 2222 Highland Plaza Properties Inc | 2064 Idaho Street, Toledo, OH
+  T : 2222 Highland Plaza Properties | 
+p=0.347 y=1 tset=100 atset=0 trank=1 freq=3 [US]
+  S1: Smith Red Corporation | 2835 Valley Home Road, White Pine, TN
+  T : Smith Red Corp | 
+p=0.316 y=1 tset=100 atset=96 trank=1 freq=1 [India]
+  S1: Grow Hospital | 15A, 4Th Floor, City Vista, Tower A, Fountain Road, Kharadi, Pune, Maharashtra
+  T : GROW HOSPITAL COMPANY | BLOCK A-610 15A, 4TH FLOOR, CITY VISTA, TOWER A, FOUNTAIN ROAD, KHARADI, Maharashtra
+p=0.371 y=1 tset=100 atset=0 trank=2 freq=4 [US]
+  S1: Heartland Management Inc | 7817 Carriker Williams Road, Fairview, NC
+  T : Heartland Management Incorporated | 
+p=0.235 y=1 tset=92 atset=0 trank=3 freq=4 [US]
+  S1: Pediatric Dentistry Associates LP | AL, 43 560, Smiths Station
+  T : Pediatric Denrftry Associates LP | 
+p=0.480 y=1 tset=86 atset=95 trank=1 freq=60 [US]
+  S1: Main Street Tavern | 69171 Primrose Road, Walkerton, IN
+  T : Street Main Tamem | 69169 PRIMROSE ROAD, WALKERTON, IN
+p=0.277 y=1 tset=100 atset=0 trank=2 freq=3 [India]
+  S1: International It LLP | Flat No-3C, Bhagwati Saran Enclave, Boring Road, Patna, Bihar
+  T : International It  LLP | 
+p=0.577 y=1 tset=81 atset=84 trank=2 freq=8 [US]
+  S1: Arts Fund LLC | 422 Sand Creek Road, Unit Unit 503, Colonie, NY
+  T : LLC Arts Fssld | SAND CREEK RD, ALBANY, NY
+p=0.280 y=1 tset=44 atset=99 trank=1 freq=2 [US]
+  S1: Savais Inc | Duck Creek Village Cpu, 3515 Cherokee Lane, UT
+  T : Ciradova | 3515 CHEOKEE LN, DUCK CREEK VILLAGE CPU, UT
+p=0.099 y=1 tset=100 atset=0 trank=8 freq=8 [India]
+  S1: Chennai Consultants Private Limited | Chennai, Tamil Nadu, Chennai, No.153 & 155, South West Boag Road T.Nagar
+  T : Chennai Consultants Private | 
+p=0.428 y=1 tset=100 atset=99 trank=1 freq=1 [India]
+  S1: Singh Ventures | 78-A, Parshwanath Nagar Indore, Indore, Madhya Pradesh
+  T : Singh Ventures LLP | 8-A, PARSHWANATH NAGAR INDORE, मध्य प्रदेश
+p=0.270 y=1 tset=100 atset=97 trank=1 freq=20 [US]
+  S1: Blue Dental Associates | 2787 Cassady Avenue, Columbus, OH
+  T : Blue Dental Associates LLC | 278 CASSADY AVENUE, N/A, COLUBUS, OH
+p=0.045 y=1 tset=100 atset=77 trank=1 freq=1 [US]
+  S1: Skelton and Sherbert LLC | 76 Saint Joan Lane, Unit Apartment 1, Cheektowaga, NY
+  T : SKELTON & SHERBERT LLC SERVICES | 36 SAINT JOAN LN, BUFFALO, NY
+p=0.062 y=1 tset=94 atset=0 trank=6 freq=26 [US]
+  S1: Patriot Committee | IL, Chicago, 720 Fair Place
+  T : Patriot ((Commattee)) | 
+p=0.022 y=1 tset=100 atset=0 trank=11 freq=2 [US]
+  S1: Urgent Care Regional Associates LLC | CA, 5945 Lake Drive, Angelus Oaks
+  T : Urgent Care Regional | 
+p=0.287 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Metro Direct | 4737 Dale Avenue, Cincinnati, OH
+  T : Metro Direct | 
+p=0.011 y=1 tset=89 atset=0 trank=5 freq=1 [US]
+  S1: Oncology Beacon Health | 14000 Iron Horse Lane, Unit 14206, Franklin, TN
+  T : Oncology 8eacon Health LP | 
+p=0.348 y=1 tset=100 atset=72 trank=3 freq=42 [India]
+  S1: Bombay Logistics Private Limited | Plot No 5, Gut No 142/4-K, Aaisaheb Nagar, Harsul, Aurangabad, Maharashtra
+  T : बॉम्बे लॉजिस्टिक्स प्राइवेट लिमिटेड | 5, AURANGABD, Maharashtra
+p=0.289 y=1 tset=100 atset=0 trank=3 freq=3 [India]
+  S1: Shiva Institute Public Limited | 23/25, Karnan Street, Kodambakkam, Chennai, Tamil Nadu
+  T : SHIVA INSTITUTE  PUBLIC LTD | 
+p=0.201 y=1 tset=100 atset=0 trank=3 freq=1 [US]
+  S1: Ferrio Water LP | 101 54, Unit 8, Carrboro, NC
+  T : Ferrio  Water | 
+p=0.621 y=1 tset=100 atset=94 trank=1 freq=1 [India]
+  S1: Ripe Age Partners | Ph2, Alsa Manor, 72, Harrington Road Chetpet, Chennai, Tamil Nadu
+  T : RIPE AGE PARTNERS LLP | Tamil Nadu, NO 209 PH2, ALSA MANOR, 72, HARRINGTON ROAD CHETPET
+p=0.502 y=1 tset=100 atset=98 trank=1 freq=47 [India]
+  S1: All Services Private Limited | 41 Crescent Mansion Oppgamdevi Police Station Gamdevi, Mumbai, Maharashtra
+  T : Services All Services (Private) | 4-1 CRESCENT MANSION OPPGAMDEVI POLICE STATION GAMDEVI, Maharashtra, MUMBAI, MUMBAI II
+p=0.216 y=1 tset=100 atset=0 trank=3 freq=4 [US]
+  S1: Sheelagh Twomey Toyo Corp | 2003 New York Avenue, Austin, TX
+  T : Sheelagh  Twomey Toyo Corp | 
+p=0.430 y=1 tset=100 atset=96 trank=1 freq=1 [US]
+  S1: Cure Grill of College Park | MD, College Park, Unit 553, 8430 Baltimore Avenue
+  T : Cure Grill of College Park LLC | 8430 1/2 Baltimore Avenue, null, COLLEGE PARK, MD
+p=0.217 y=1 tset=100 atset=82 trank=1 freq=2 [US]
+  S1: Julita's Supply | 864 Washington Avenue, Chestertown, MD
+  T : JULITA'S SUPPLY LLC | 86 WASHINGTON AVE, KENT COUNTY, MD
+p=0.279 y=1 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Camaex | Unit Apt 219, AR, Malvern, 720 Walco Road
+  T : Camaex (Ltd) | 
+p=0.601 y=1 tset=18 atset=92 trank=2 freq=1 [US]
+  S1: Pediatric Dental Group of Galloway LP | 398 Firewood Lane, Fl 1, Galloway, OH
+  T : Halolum | 398B FIREWOOD LANE, GALLOWAY, OH
+p=0.464 y=1 tset=22 atset=98 trank=1 freq=1 [India]
+  S1: Marketing Samyak Chits Private Limited | 709, Floor-7, Plot-Cs 1487, Prasad Chamber, Tata Road No 2, Roxy Cinema Opera House, Girgaon, Mumbai, Mumbai City, Maharashtra
+  T : MSCHlTS.COM | MUMBAI, Maharashtra, FLOOR-7, PLOT-CS 1487, PRASAD CHAMBER, TATA ROAD NO 2, ROXY CINEMA OPERA HOUSE, GIRGAON, NO. 603 709, MUMBAI
+p=0.222 y=1 tset=93 atset=83 trank=1 freq=1 [India]
+  S1: Flower (India) Niketan of Kolkata Private Limited | Calcutta, 842/27Upen Banerjee Rd, West Bengal, Kolkata
+  T : FLOWER NIKETAN OF KOLKATA PRIVATE LIMITED SERVICES | 8422/7UPEN BANERJEE RD, KOLKATA, পশ্চিমবঙ্গ
+p=0.450 y=1 tset=100 atset=0 trank=1 freq=2 [India]
+  S1: Transcendent Entertainment Private Limited | No.35 Rajeswari Mill Opposite, R.S. Road, Gudiyattam, Vellore, Tamil Nadu
+  T : TRANSCENDENT ENTERTAINMENT  PRIVATE LIMITED | 
+p=0.560 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Herrin Prairie Consulting LLC | 3 Bay Breeze Lane, MA, Harwich
+  T : HERRIN PRAIRIE CONSULTING | 
+p=0.076 y=1 tset=100 atset=97 trank=1 freq=3 [India]
+  S1: Hitech Enterprises | H.N. 407 Sanjay Nagar Mati Road Near Chc, Akbarpur, Kanpur Dehat, Uttar Pradesh
+  T : Hitech Enterprises Co | www.hitechent.com | H.N. 40 SANJAY NAGAR MATI ROAD NEAR CHC, AKBARPUR, Uttar Pradesh
+p=0.364 y=1 tset=100 atset=97 trank=1 freq=2 [US]
+  S1: Human Rights League IV | 216 Mardis Street, Sylvia, KS
+  T : HUMAN RIGHT5 LEAGUE IV LP | 214 MARDIS ST, SYLVIA, KS
+p=0.165 y=1 tset=100 atset=95 trank=1 freq=1 [India]
+  S1: Fortune Universal Foundation | 3Rd Floor, Happy Home Opp.Loyola Gardens, Vijayawada, Andhra Pradesh, D No. 54-16-3/6C, Srikakulam
+  T : Fortune Universal  Foundation Company | DOOR NO 74-16-3/6C , 3RD FLOOR, HAPPY HOME OPP.LOYOLA GARDENS, VIJAYAWADA, Andhra Pradesh
+p=0.326 y=1 tset=100 atset=0 trank=1 freq=2 [India]
+  S1: Gem India Private Limited | 51 Shop No. 5 Ground Floor Chawla Park Chander Nagar, Delhi, Central Delhi, Delhi
+  T : gem india private limited | 
+p=0.660 y=1 tset=100 atset=93 trank=1 freq=2 [India]
+  S1: Om Medical Centre | Mahatab Road, Behind Sangam Cinema Hall, Cuttack, Orissa
+  T : OM MEDICAL CENTRE LTD | DOOR NO 293  MAHATAB ROAD, BEHIND SANGAM CINEMA HALL, CUTTACK, Odisha
+p=0.473 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Eden Nguyen Nasdaq Group | 1813 E Avenue, Muscatine, IA
+  T : Eden Nguyen Nasdaq (Group) | 
+p=0.331 y=1 tset=100 atset=0 trank=5 freq=4 [US]
+  S1: Tineo Great Payments | Kingsville, 1401 Santa Gertrudis Avenue, TX
+  T : Tineo Payments Great | 
+p=0.090 y=1 tset=100 atset=0 trank=2 freq=5 [US]
+  S1: Eagleton Medical | Wickenburg, 2665 Kay El Bar Road, AZ
+  T : EAGLETON MEDICAL CORP | 
+p=0.327 y=1 tset=94 atset=0 trank=2 freq=2 [US]
+  S1: EP Restaurants Inc | OR, Coos Bay, 63516 Andrews Road
+  T : EP Resmaurans Inc | 
+p=0.560 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Reliable Trading Global | 585 Christmas Tree Lane, Lafollette, TN
+  T : RELIABLE TRADING GLOBAL | 
+p=0.405 y=1 tset=100 atset=88 trank=1 freq=50 [India]
+  S1: Indian Foundation Private Limited | 4039, St No.1, Hargobindpura, Sherpur Bye Pass, Near Samrala Chowk, Ludhiana, Punjab
+  T : ਇੰਡੀਅਨ ਫਾਊਂਡੇਸ਼ਨ ਪ੍ਰਾਈਵੇਟ ਲਿਮਟਿਡ | 403, LUDHIANA, ਪੰਜਾਬ
+p=0.601 y=1 tset=100 atset=0 trank=2 freq=1 [US]
+  S1: Gonzalez Platinum Israel | Unit 107, 801 Coventry Lane, Norwood, MA
+  T : GONZALEZ PLATINUM | 
+p=0.298 y=1 tset=100 atset=88 trank=2 freq=36 [India]
+  S1: First Food Private Limited | F No 5, Shri Ram Rajya Plaza, P No 67, 68, S No 222/1A, Nr Gulmohor Colony, Nashik, Maharashtra
+  T : फर्स्ट फूड प्राइवेट लिमिटेड | HN 210 F NO 5, NASHIK, महाराष्ट्र
+p=0.102 y=1 tset=100 atset=82 trank=1 freq=1 [US]
+  S1: Heartland Skin Care | MA, Unit 12A, Cambridge, 1699 Cambridge Street
+  T : Heartland Skin Care Co | 699 CAMBRIDGE SAINT, CAMBRIDGE, MA
+p=0.313 y=1 tset=71 atset=0 trank=1 freq=1 [India]
+  S1: Sumiran Law Chambers | C-11, Tarang Apartments, I. P. Extension, Delhi
+  T : Mr Sumiran Law Center #53431 | 
+p=0.522 y=1 tset=100 atset=97 trank=1 freq=1 [India]
+  S1: New Delhi Rise Care | Param Dairy, 11/5B Pusa Road, New Delhi, Central Delhi, Delhi
+  T : New Delhi Rise Care Ltd | PARAM DAIRY, 1/5B PUSA ROAD, NEW DELHI, Delhi
+p=0.260 y=1 tset=100 atset=0 trank=10 freq=1 [India]
+  S1: Greenko Group | 50, Sarai Said Khan, Fatehpur, Uttar Pradesh
+  T : GREENKO.COM | 
+p=0.309 y=1 tset=100 atset=95 trank=1 freq=1 [India]
+  S1: Marketing Financial Associates | Unit No. 01, Sheil Estate, Dani Compound, Cst Road, Kalina, Mumbai, Maharashtra
+  T : Marketing Financia1 Associates Corporation | HN 971 UNIT NO. 01, SHEIL ESTATE, DANI COMPOUND, CST ROAD, KALINA, Maharashtra
+p=0.090 y=1 tset=100 atset=90 trank=1 freq=10 [US]
+  S1: Ziia | 6507 Amber Springs Drive, Durham, NC
+  T : Ziia Corp | 650 AMBER SPRINGS DR, DURHAMM CITY, NC
+p=0.475 y=1 tset=22 atset=100 trank=2 freq=1 [US]
+  S1: Education Association Partners | 7 Independence Way, Unit 402, Franklin, MA
+  T : Quofaye | 7 INDEPENDENCE WAY, FRANKLIN, MA
+p=0.411 y=1 tset=100 atset=97 trank=1 freq=1 [US]
+  S1: Theressa's Coastal Cleaning Service | 811 Trent Arden Court, Martinsburg, WV
+  T : Theressa's Coastal Cleaning Service Ltd | 911 TRENT ARDEN COURT, MARTINSBURG, WV
+p=0.298 y=1 tset=83 atset=78 trank=1 freq=18 [US]
+  S1: Atlantic Association | 650 Narcisi Lane, Upper Merion Township, PA
+  T : Atlantic Asfsocation #75050 | 65 NARCISI LN, WAYYNE CDP, PA
+p=0.167 y=1 tset=95 atset=97 trank=1 freq=1 [India]
+  S1: Endeavour (India) Leather Pvt Ltd | C/O Zahir Parsaunwi, Block Bisfi, Benipatti, Madhubani, Bihar
+  T : Endeavour (India) Lr Pvt Ltd | #75 C/O ZAHIR PARSAUNWI, BLOCK BISFI, BENIPATTI, बिहार
+p=0.113 y=1 tset=100 atset=0 trank=5 freq=5 [US]
+  S1: Dermatology Continental Group | 223 Roger Chaffee Square, Bear, DE
+  T : Dermatology Continental  Group | 
+p=0.192 y=1 tset=100 atset=0 trank=4 freq=3 [US]
+  S1: Heartland Industries | 1 Joseph Terrace, Woburn, MA
+  T : Heartland Industries | 
+p=0.528 y=1 tset=100 atset=0 trank=2 freq=2 [India]
+  S1: Agile Advisors | 96, 2Nd Floor, 7Th Cross Lower Palace Orchards, Bangalore, Karnataka
+  T : Smt Agile (Advisors) | 
+p=0.315 y=1 tset=100 atset=0 trank=4 freq=4 [US]
+  S1: Moore Family Practice PLLC | 10303 Haywood Drive, Silver Spring, MD
+  T : Moore Fámily Practice PLLC | 
+p=0.302 y=1 tset=82 atset=93 trank=1 freq=2 [India]
+  S1: Southeast Holdings | No#63, K.No, 55/7 & 55/8 2Nd Sector, Hsr Layout, Bangalore, Karnataka
+  T : Southeast LLP | No 655 No#63, Bangalore, KA
+p=0.075 y=1 tset=100 atset=73 trank=1 freq=1 [US]
+  S1: Nelson's Cleaning | 25760 Minkler Road, Sedro-woolley, WA
+  T : Nels0n'S Cleaning Ltd | Skagit County, Washington, 5760 Minkler Rd
+p=0.333 y=1 tset=100 atset=0 trank=3 freq=4 [US]
+  S1: Wright, Sindelar & Rose | 1113 Maplewood Place, Anniston, AL
+  T : Wright, & Rose Sindelar | 
+p=0.439 y=1 tset=100 atset=0 trank=3 freq=2 [US]
+  S1: Cardiology Associates Clinic | 1478 Stafford Road, Mansfield, CT
+  T : Cardiology Ássociates Clinic | 
+p=0.694 y=1 tset=94 atset=99 trank=1 freq=2 [India]
+  S1: Jai Technologies | Block A 2303, Privilon B/H Iscon Temple, Ambli-Bopal Road, S.G. Highway, Ahmedabad, Ahmadabad City, Ahmedabad, Gujarat
+  T : જય ટેક્નોલોજીસ | Ahmedabad, Block A 230, GJ, Ahmadabad City, Privilon B/h Iscon Temple, Ambli-bopal Road, S.g. Highway, Ahmedabad
+p=0.009 y=1 tset=100 atset=97 trank=1 freq=1 [US]
+  S1: Secure Maritime | 11625 Loop Road, Beaumont, TX
+  T : Secure Maritime Co | 11623 Loop Rd, Beaumont, Texas
+p=0.580 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Whitmer Creative Liberty LLC | 602 36th Street, Tacoma, WA
+  T : The Whitmer Creative Liberty LLC | 
+p=0.010 y=1 tset=82 atset=92 trank=5 freq=40 [India]
+  S1: High Projects Private Limited | 36, Saidulajab, M.B. Road, Near Saket Metro Station, New Delhi, South Delhi, Delhi
+  T : Shri High Private Limited Service | ##36, New Delhi, South Delhi, DL
+p=0.592 y=1 tset=97 atset=97 trank=1 freq=1 [India]
+  S1: Paws Engimech Pvt Ltd | Sr. No. 16/2 Flat No., D-103, Marvel Isola, Pune City, Pune, Maharashtra
+  T : Pvt Paws Enidmech Ltd | MH, Pune Region, Sr. No. 14/2 Flat No., D-103, Marvel Isola, Pune City
+p=0.056 y=1 tset=100 atset=58 trank=1 freq=6 [India]
+  S1: Sky Projects | No 1038, Perumal Koil St, Kannigaipair Uthukottai, Tamil Nadu, Tiruvallur, Uttukottai
+  T : Sky Projects (Corp) | No 038, Thiruvallur, Tiruvallur, TN
+p=0.467 y=1 tset=90 atset=0 trank=2 freq=1 [US]
+  S1: Midwest Supreme Portfolio Inc | 608 Mulberry Street, Kokomo, IN
+  T : Midwest  Portfolio Inc Center | 
+p=0.493 y=1 tset=100 atset=0 trank=3 freq=3 [India]
+  S1: ZPH Service | Wz-1672, First Floor Nagal Raya, New Delhi, West Delhi, Delhi
+  T : ZPH Service Corporation | 
+p=0.522 y=1 tset=91 atset=87 trank=2 freq=1 [India]
+  S1: Nageshwar (India) Enterprises Pvt Ltd | Shop No. 216, 2Nd Floor, Best Arcade Plot No-3, Pocket-6, Sector-12, Dwarka, New Delhi, South West Delhi, Delhi
+  T : Nageshwar (India) Pvt Ltd Center | #16, New Delhi, South West Delhi, DL
+p=0.171 y=1 tset=100 atset=93 trank=4 freq=79 [India]
+  S1: Shree Traders Private Limited | No.743, Clayworks, 15Th Cross Rd Phase 6, Bangalore South, Bangalore, Karnataka
+  T : Shree Traders Private Ltd | 971, Bangalore South, ಕರ್ನಾಟಕ
+p=0.479 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Legacy Cargo LLC | 5217 36th Avenue, Amarillo, TX
+  T : Legacy Cargo LLC | 
+p=0.250 y=1 tset=100 atset=0 trank=4 freq=4 [US]
+  S1: Stardust | 417 11th Street, West Memphis, AR
+  T : Stardust | 
+p=0.602 y=1 tset=88 atset=97 trank=1 freq=3 [US]
+  S1: Faix Holdings | 13 Vickie Drive, Wichita Falls, TX
+  T : Fgx Fgx Holdings | 1C Vickie Dr, null, Wichita Falls, Texas
+p=0.026 y=1 tset=100 atset=92 trank=1 freq=2 [US]
+  S1: Continental Family Office | Brownwood, 7981 606, TX
+  T : Continental Family-Office Co | 7972 606, NULL, Brownwood, Texas
+p=0.291 y=1 tset=28 atset=95 trank=3 freq=1 [US]
+  S1: Harvey Frontier Breeze Group | 324 Joseph Street, Fl 1, Central Point, OR
+  T : Miravera | Centra Point, 324 Joseph St, Oregon, Floor 1
+p=0.356 y=1 tset=100 atset=0 trank=2 freq=1 [India]
+  S1: Navayuga Foods (India) Group | 319, Shastri Nagar, Near B.R. Modern School, Amritsar -I, Amritsar, Punjab
+  T : Navayuga Foods (India) | 
+p=0.191 y=1 tset=96 atset=94 trank=1 freq=1 [US]
+  S1: Schuch Platinum of Fort Smith | 2420 Hwy 45, Fort Smith, AR
+  T : Schuch Platinum of Ft Smith | 2217 Hwy 45, Fort Smith, Arkansas
+p=0.066 y=1 tset=77 atset=98 trank=1 freq=3 [India]
+  S1: Puri Solutions Limited | Plot No-1814/2163, At-Pubasasan Ps-Pipilli, Puri, Orissa
+  T : Center Puri Limited | Plot No-1813/2163, At-pubasasan Ps-pipilli, Puri, null, ଓଡ଼ିଶା
+p=0.211 y=1 tset=100 atset=93 trank=1 freq=1 [US]
+  S1: Premier Trading Group LLC | Dallas, 8428 Banquo Drive, TX
+  T : Premier Trading Group | 8417 Banquo Dr, Dallas, Texas
+p=0.184 y=1 tset=95 atset=97 trank=1 freq=58 [US]
+  S1: Ear Nose & Throat Physicians Inc | 1885 Hosier Road, Suffolk City, VA
+  T : ... Ear Nose Throat Physicians Inc Center | 1886 Hosier Rd, Suffolk City, Virginia
+p=0.303 y=1 tset=100 atset=0 trank=2 freq=3 [US]
+  S1: Behavioral Health Federal Specialists Inc. | 1509 Hayes Avenue, South Beloit, IL
+  T : Behavioral Héalth Federal Specialists Inc. - 6098429853 | 
+p=0.596 y=1 tset=90 atset=0 trank=5 freq=1 [US]
+  S1: Vantus Investments Inc | Lexington, MA, 8 Kitson Park Drive
+  T : Vantus Idvleltment Inc | 
+p=0.038 y=1 tset=24 atset=100 trank=7 freq=1 [US]
+  S1: Stone Corp | 3553 Queensway Drive, TX, Brownsville
+  T : Hal0faye | 3553 1/2 Queensway Dr, Brownsville, Texas
+p=0.204 y=1 tset=100 atset=0 trank=3 freq=3 [India]
+  S1: Kvs Ventures Public Limited | Db-129, Ground Floor, Sector-I, Salt Lake, Sakltlake, North 24 Parganas, West Bengal
+  T : KVS VENTURES PUBLIC LIMITED | 
+p=0.037 y=1 tset=18 atset=100 trank=2 freq=1 [US]
+  S1: WGB Copley | 14840 State Rte 7, Gallipolis, OH
+  T : Zetanex Labs | 14840 State Rte 7, Gallipolis, OH
+p=0.476 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Carr Third, Inc | 5410 117A, Wilson, NC
+  T : Carr Third, Incorporated | 
+p=0.486 y=1 tset=100 atset=0 trank=5 freq=1 [US]
+  S1: Lark Martinez Global Midstream, LLC | Buda, TX, 530 Country Lane
+  T : Lark Martinez Global | 
+p=0.624 y=1 tset=71 atset=94 trank=1 freq=1 [US]
+  S1: Powell's Catering | 33372 132nd Drive, Peoria, AZ
+  T : Powell's Service | 33355 132nd Drive, Peoria, Arizona
+p=0.197 y=1 tset=100 atset=0 trank=3 freq=4 [India]
+  S1: Grace & Brothers Pvt. Ltd. | West Godavari, Chinamiram, Andhra Pradesh, Bhimavaram, No 7/1 1St Floor Opposite To Union Bank
+  T : Grace & Brothers Pvt. Ltd. | 
+p=0.628 y=1 tset=100 atset=89 trank=1 freq=7 [India]
+  S1: Laxmi Builders | 318 Bldg No 2 Motilal, Nehru Nagar Bkc, Mumbai, Maharashtra
+  T : Laxmi Builders Limited | #1 Bldg No 2 Motilal, Mumbai Surban, Mumbai, महाराष्ट्र
+p=0.671 y=1 tset=64 atset=88 trank=1 freq=2 [US]
+  S1: 42/69 Rising | 5740 4th Avenue, Unit APT B, Anchorage, AK
+  T : 42/69 Service | Anchorage, 740 4rd Avenue, Alaska, # APT B
+p=0.087 y=1 tset=88 atset=85 trank=1 freq=4 [US]
+  S1: Golden Elite Research | 8643 84th Place, Fl 1, Scottsdale, AZ
+  T : Golden Center Research | 643 84rd Place, Floor 1, Scottsdale, Arizona
+p=0.285 y=1 tset=100 atset=0 trank=2 freq=4 [US]
+  S1: Carilyn Vazquez Highland, LLC | 115 Twp Rd 1061, Unit 1, Proctorville, OH
+  T : Carilyn Vazquez Highland, (LLC) | 
+p=0.461 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Internal Medicine Tri-State Specialists | Isle Of Wight County, VA, 16325 Smithfield Heights Drive
+  T : internal medicine tri-state specialists | 
+p=0.035 y=1 tset=100 atset=0 trank=9 freq=37 [India]
+  S1: One Infrastructure Private Limited | H. No. 1596, Pune, Canal Road Lendesthal Pimpalwandi, Taluka -Junnar, Maharashtra
+  T : One Infrastructure Private | 
+p=0.226 y=1 tset=86 atset=95 trank=1 freq=6 [India]
+  S1: Fortune Agro Limited | F/702, Plot No. 24, Goodwill Construction, Sector-15, Panvel, Raigarh(Mh), Maharashtra
+  T : Sri F0rtune Agro | F/70, Panvel, Raigarh(mh), MH
+p=0.429 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Star Corporate LP | 6029 Windsor Drive, Unit APT 3B, Indianapolis, IN
+  T : Star Córporate LP | 
+p=0.077 y=1 tset=100 atset=0 trank=5 freq=13 [US]
+  S1: Cozy Book Store! LLC | 2703 Holly Street, MO, Kansas City
+  T : Cozy Book Store! [LLC] | 
+p=0.296 y=1 tset=100 atset=0 trank=1 freq=4 [India]
+  S1: Bhubaneswar Health Private Limited | Bhubaneswar, Orissa, Idco Software Complexplot No 488 Mancheswar Industrial Estate, Puri
+  T : Bhubaneswar Health Private (Limited) | 
+p=0.096 y=1 tset=62 atset=0 trank=8 freq=1 [India]
+  S1: VP Realcon LLP | Plot No 18 Komalnagar, Housingsociety Pethenagar, Aurangabad, Maharashtra
+  T : VP  LLP Services | 
+p=0.280 y=1 tset=61 atset=100 trank=1 freq=1 [US]
+  S1: Batie Gen LLC | Hartland, VT, 302 Clay Hill Road
+  T : Be 6en LLC | Vermont, NULL, 302 Clay Hill Rd, Hartland
+p=0.215 y=1 tset=100 atset=91 trank=1 freq=1 [US]
+  S1: Lincolnton Pioneer | 700 John Howell Memorial Drive, Lincolnton, NC
+  T : Lincolnton Pioneer Inc. | 00 John Howell Memorial Dr, North Carolina, Lincolnton
+p=0.349 y=1 tset=100 atset=94 trank=1 freq=6 [US]
+  S1: Fresh Coffee Inc | 620 Elm Street, Hoopeston, IL
+  T : Fresh Coffee Inc Services | 619 Elm Street, Hoopeston, Illinois
+p=0.573 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Maid Tavern! Group | 178 Moulton Avenue, Tonawanda, NY
+  T : The Maid Tavern! Group | 
+p=0.248 y=1 tset=24 atset=100 trank=2 freq=2 [India]
+  S1: Indresh Consultancy Group | 669/1 Godown Priyanka Ngr Nagar Road Post Wagholi, Dist-Pune, Pune, Maharashtra
+  T : Kordelta | 669/1 Godown Priyanka Ngr Nagar Road Post Wagholi, Pune, Dist-Pune, Pune, Maharashtra
+p=0.002 y=1 tset=83 atset=0 trank=7 freq=134 [India]
+  S1: Mumbai (india) Private Limited | Centrum House, 8Th Floor, Plot No.5445A, Village Kurla, C.S.T. Road, Kalina, Santacruz (E, Ast)., Mumbai, Mumbai City, Maharashtra
+  T : Mumbai (India) Private (ID: 47633) | 
+p=0.121 y=1 tset=100 atset=98 trank=1 freq=188 [US]
+  S1: Urology Group | 1360 Jacobsen Boulevard, Bremerton, WA
+  T : Urology Group Center | 9360 Jacobsen Boulevard, Bremerton, Washington
+p=0.332 y=1 tset=74 atset=94 trank=1 freq=1 [US]
+  S1: E/U Home Care | 1065 Old Country Road, Unit Suite 216, North Hempstead, NY
+  T : E/U Home Services | 065 Old Country Rd, Unit Suite 216, North Hempstead, New York
+p=0.080 y=1 tset=100 atset=0 trank=2 freq=2 [US]
+  S1: Mckinnon Fuse Corp | 126 Buffalo Street, Unit 10, Johnson City, TN
+  T : Mckinnon Fuse | 
+p=0.678 y=1 tset=88 atset=100 trank=4 freq=5 [India]
+  S1: Pune City Global Private Limited | Shop-25, Wing-E, Kunal Plaza, Chinchwad, Pune City, Pune, Maharashtra
+  T : Pune City Private Limited Service | MH, Pune, Pune City, Shop-25
+p=0.449 y=1 tset=100 atset=0 trank=4 freq=2 [US]
+  S1: Mutual Mobility Concepts Inc | Charlotte, NC, 5537 Soulfire Avenue
+  T : Mutual  Mobility Concepts Inc | 
+p=0.381 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: GB Pacific Kongsberg | 1126 Burlington Drive, Muncie, IN
+  T : GB Pacific Kongsberg LP | 
+p=0.005 y=1 tset=89 atset=62 trank=3 freq=45 [India]
+  S1: Royal Agro Private Limited | 621, 6Th Floor, Dlf Tower B Jasola District Centre, Jasola, Delhi
+  T : Royal Private Limited Partners | 621, South East, दिल्ली
+p=0.018 y=1 tset=100 atset=96 trank=1 freq=3 [US]
+  S1: OX Federal Osprey | 17 Balina Place, Boston, MA
+  T : OX Federal Osprey Co | 33 Balina Pl, Boston, Massachusetts
+p=0.585 y=1 tset=100 atset=89 trank=1 freq=1 [India]
+  S1: Super Clinic | 16/3, 10Th Cross, 4Th Main Road, L N Puram, Bangalore, Bangalore North, Karnataka, L84
+  T : Super Clinic Limited | Lc-84, Bangalore North, Bangalore, KA
+p=0.151 y=1 tset=26 atset=100 trank=3 freq=1 [India]
+  S1: Black (India) Iron Private Limited | 1163/2 A'Ba B-9 Near Hotel Sahyog, Chhatral, Kalol, Gandhinagar, Gandhi Nagar, Gujarat
+  T : Nylákor | Door No 1163/2 A'ba B-9 Near Hotel Sahyog, Chhatral, Kalol, Gandhi Nagar, ગુજરાત, Gandhinagar
+p=0.604 y=1 tset=86 atset=0 trank=1 freq=1 [India]
+  S1: Travels Traders Private Limited | E-51 Gali No 3 E- Block West Jyoti Nagar, Delhi, East Delhi, Delhi
+  T : Shri Travels Traders Pivie Limited | 
+p=0.546 y=1 tset=100 atset=0 trank=1 freq=2 [US]
+  S1: Thomas, Singer & Sowers Urban, LLC | 506 Spindrift Circle, Richmond, TX
+  T : Thomas, Singer & Sowers Urban, Llc | 
+p=0.284 y=1 tset=100 atset=0 trank=2 freq=3 [US]
+  S1: Orthopedic Strategic Specialists | 5 Depaoli Road, Cecil Township, PA
+  T : Orthopedic-Strategic Specialists Corporation | 

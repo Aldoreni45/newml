@@ -1,0 +1,18 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-8KrgAQuNamym4wI58poViq
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_collective.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function collective.
+modal : ┌─ Error ─────────────────────────────────────────────────────────────────────┐
+At line:1 char:386
++ ... NG="utf-8"; modal run --detach modal_app/stage_collective.py --split  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (┌─ Error ──────...──────────────┐:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+│ [Errno 11001] getaddrinfo failed                                            │
+└─────────────────────────────────────────────────────────────────────────────┘

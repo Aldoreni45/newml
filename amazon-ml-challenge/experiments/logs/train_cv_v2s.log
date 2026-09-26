@@ -1,0 +1,329 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-Ke06LnwHMsJkojmLtjea6R
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_train.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function train.
+├── 🔨 Created function train_cv.
+└── 🔨 Created function evaluate_models.
+[100]   valid_0's binary_logloss: 0.0045758
+[200]   valid_0's binary_logloss: 0.00452522
+fold 1 done 160s
+fold 2 done 225s
+fold 3 done 285s
+{
+ "tag": "cv_v2s",
+ "feat_tag": "v1_col",
+ "params": {
+  "objective": "binary",
+  "learning_rate": 0.08,
+  "num_leaves": 255,
+  "min_data_in_leaf": 400,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.7,
+  "bagging_freq": 1,
+  "lambda_l2": 1.0,
+  "max_bin": 127,
+  "num_threads": 32,
+  "verbose": -1,
+  "seed": 42,
+  "deterministic": true,
+  "force_row_wise": true
+ },
+ "n_features": 108,
+ "cv_folds": [
+  1,
+  2,
+  3
+ ],
+ "val_folds": [
+  0
+ ],
+ "rounds": 172,
+ "t_models": 284.88702273368835,
+ "val_reliability": [
+  [
+   0,
+   0.02,
+   8664155,
+   0.0001,
+   0.0001
+  ],
+  [
+   0.02,
+   0.05,
+   24437,
+   0.0317,
+   0.0291
+  ],
+  [
+   0.05,
+   0.1,
+   14806,
+   0.0717,
+   0.0696
+  ],
+  [
+   0.1,
+   0.2,
+   15053,
+   0.1455,
+   0.1392
+  ],
+  [
+   0.2,
+   0.3,
+   9291,
+   0.2458,
+   0.2452
+  ],
+  [
+   0.3,
+   0.4,
+   5869,
+   0.3466,
+   0.3406
+  ],
+  [
+   0.4,
+   0.5,
+   4984,
+   0.4487,
+   0.439
+  ],
+  [
+   0.5,
+   0.6,
+   3559,
+   0.5456,
+   0.5339
+  ],
+  [
+   0.6,
+   0.7,
+   2611,
+   0.65,
+   0.648
+  ],
+  [
+   0.7,
+   0.8,
+   2838,
+   0.7516,
+   0.7724
+  ],
+  [
+   0.8,
+   0.9,
+   5071,
+   0.8582,
+   0.8738
+  ],
+  [
+   0.9,
+   0.95,
+   6318,
+   0.9279,
+   0.9424
+  ],
+  [
+   0.95,
+   0.98,
+   10339,
+   0.968,
+   0.9755
+  ],
+  [
+   0.98,
+   1.0,
+   719234,
+   0.9994,
+   0.9996
+  ]
+ ],
+ "oof_reliability": [
+  [
+   0,
+   0.02,
+   26087240,
+   0.0001,
+   0.0001
+  ],
+  [
+   0.02,
+   0.05,
+   71521,
+   0.032,
+   0.0349
+  ],
+  [
+   0.05,
+   0.1,
+   43023,
+   0.0716,
+   0.0771
+  ],
+  [
+   0.1,
+   0.2,
+   43681,
+   0.1454,
+   0.1472
+  ],
+  [
+   0.2,
+   0.3,
+   26513,
+   0.2463,
+   0.2512
+  ],
+  [
+   0.3,
+   0.4,
+   17915,
+   0.3478,
+   0.3485
+  ],
+  [
+   0.4,
+   0.5,
+   14665,
+   0.4482,
+   0.4387
+  ],
+  [
+   0.5,
+   0.6,
+   10558,
+   0.5463,
+   0.5243
+  ],
+  [
+   0.6,
+   0.7,
+   7832,
+   0.6481,
+   0.6228
+  ],
+  [
+   0.7,
+   0.8,
+   8454,
+   0.7525,
+   0.7438
+  ],
+  [
+   0.8,
+   0.9,
+   14800,
+   0.8569,
+   0.8507
+  ],
+  [
+   0.9,
+   0.95,
+   17886,
+   0.928,
+   0.9302
+  ],
+  [
+   0.95,
+   0.98,
+   30383,
+   0.9681,
+   0.9707
+  ],
+  [
+   0.98,
+   1.0,
+   2156006,
+   0.9994,
+   0.9995
+  ]
+ ],
+ "pi_val_logloss": 0.011327584356863901,
+ "pi_val_singleton_rate_true": 0.055495936063755136,
+ "pi_val_singleton_rate_pred": 0.05684529873893455,
+ "val_blocking_pair_recall": 0.9882820821456624,
+ "extra_miss_mean": 0.04059860988476081,
+ "rules": {
+  "thr_0.3": 0.9806,
+  "thr_0.3_excl": 0.98087,
+  "thr_0.4": 0.98371,
+  "thr_0.4_excl": 0.98383,
+  "thr_0.5": 0.98572,
+  "thr_0.5_excl": 0.98575,
+  "thr_0.6": 0.98669,
+  "thr_0.6_excl": 0.9867,
+  "thr_0.7": 0.98696,
+  "thr_0.7_excl": 0.98697,
+  "thr_0.8": 0.98647,
+  "thr_0.8_excl": 0.98647,
+  "expF_m0.000": 0.98703,
+  "expF_excl_m0.000": 0.98703,
+  "pi_m0.000": 0.98701,
+  "pi_excl_m0.000": 0.98701,
+  "expF_m0.041": 0.98703,
+  "expF_excl_m0.041": 0.98703,
+  "pi_m0.041": 0.98701,
+  "pi_excl_m0.041": 0.98701,
+  "ORACLE_given_candidates": 0.99645
+ },
+ "best_rule": [
+  "expF_m0.000",
+  0.98703
+ ],
+ "best_by_country": {
+  "US": [
+   0.98704,
+   132225
+  ],
+  "India": [
+   0.98703,
+   88620
+  ]
+ },
+ "best_by_ntrue": {
+  "0": [
+   0.97928,
+   12256
+  ],
+  "6": [
+   0.9916,
+   16492
+  ],
+  "3": [
+   0.9889,
+   52923
+  ],
+  "7": [
+   0.99147,
+   8710
+  ],
+  "1": [
+   0.95712,
+   11880
+  ],
+  "4": [
+   0.99045,
+   48679
+  ],
+  "5": [
+   0.99093,
+   32358
+  ],
+  "2": [
+   0.98558,
+   37547
+  ]
+ },
+ "best_bootstrap_se": 0.00016476609052687815,
+ "best_pair_precision": 0.9973459013634068,
+ "best_pair_recall": 0.9679815670852757,
+ "t_total": 346.74384593963623
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-Ke06LnwHMsJkojmLtjea6R

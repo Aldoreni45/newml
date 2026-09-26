@@ -1,0 +1,513 @@
+{
+ "tag": "lgb_v1",
+ "feat_tag": "v1",
+ "params": {
+  "objective": "binary",
+  "learning_rate": 0.08,
+  "num_leaves": 255,
+  "min_data_in_leaf": 400,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.7,
+  "bagging_freq": 1,
+  "lambda_l2": 1.0,
+  "max_bin": 127,
+  "num_threads": 32,
+  "verbose": -1,
+  "seed": 42,
+  "deterministic": true,
+  "force_row_wise": true
+ },
+ "n_features": 87,
+ "features": [
+  "s_name",
+  "r_name",
+  "s_cat",
+  "r_cat",
+  "s_addr",
+  "r_addr",
+  "s_combo",
+  "r_combo",
+  "s_rev",
+  "r_rev",
+  "c_name",
+  "c_cat",
+  "c_nword",
+  "c_addr",
+  "c_combo",
+  "e_name",
+  "e_addr",
+  "e_full",
+  "c_combo_qrank",
+  "c_combo_qgap",
+  "c_combo_trank",
+  "c_combo_tgap",
+  "c_name_qrank",
+  "c_name_qgap",
+  "c_name_trank",
+  "c_name_tgap",
+  "c_addr_qrank",
+  "c_addr_qgap",
+  "c_addr_trank",
+  "c_addr_tgap",
+  "e_full_qrank",
+  "e_full_qgap",
+  "e_full_trank",
+  "e_full_tgap",
+  "q_ncand",
+  "t_nq",
+  "c_combo_tmargin",
+  "c_name_tmargin",
+  "c_addr_tmargin",
+  "e_full_tmargin",
+  "n_ratio",
+  "n_tsort",
+  "n_tset",
+  "n_partial",
+  "n_wratio",
+  "n_jw",
+  "n_cat_ratio",
+  "n_cat_partial",
+  "n_cat_lev",
+  "a_ratio",
+  "a_tsort",
+  "a_tset",
+  "a_partial",
+  "n_jacc",
+  "n_idf_jacc",
+  "n_idf_cov_q",
+  "n_idf_cov_t",
+  "n_max_shared_idf",
+  "n_core_jacc",
+  "n_core_eq",
+  "n_first_tok_eq",
+  "n_initials",
+  "n_phon_jacc",
+  "n_alias_core_jacc",
+  "n_len_q",
+  "n_len_t",
+  "n_core_missing",
+  "n_core_extra",
+  "n_trunc_prefix",
+  "a_num_jacc",
+  "a_first_num_eq",
+  "a_num_shared",
+  "a_q_num_missing",
+  "a_bignum_jacc",
+  "a_idf_jacc",
+  "a_idf_cov_t",
+  "a_max_shared_idf",
+  "a_t_empty",
+  "t_src",
+  "t_nm_scr",
+  "t_ad_scr",
+  "t_has_dom",
+  "t_has_alias",
+  "q_nm_freq_s1",
+  "t_nm_freq_s1",
+  "t_nm_freq_t",
+  "n_dom_prefix_cov"
+ ],
+ "n_train": 19012488,
+ "n_es": 9537989,
+ "n_val": 9488565,
+ "train_countries": null,
+ "val_countries": null,
+ "best_iteration": 777,
+ "es_logloss": 0.005718586850868649,
+ "t_train": 314.76807260513306,
+ "val_blocking_pair_recall": 0.9882820821456624,
+ "extra_miss_mean": 0.04059860988476081,
+ "rules": {
+  "thr_0.2": 0.97062,
+  "thr_0.2_excl": 0.97141,
+  "thr_0.3": 0.97676,
+  "thr_0.3_excl": 0.97714,
+  "thr_0.4": 0.9802,
+  "thr_0.4_excl": 0.98038,
+  "thr_0.5": 0.98258,
+  "thr_0.5_excl": 0.98266,
+  "thr_0.6": 0.98394,
+  "thr_0.6_excl": 0.98398,
+  "thr_0.7": 0.98454,
+  "thr_0.7_excl": 0.98456,
+  "thr_0.8": 0.98449,
+  "thr_0.8_excl": 0.9845,
+  "thr_0.9": 0.9829,
+  "thr_0.9_excl": 0.98291,
+  "expF_miss0.000": 0.98413,
+  "expF_excl_miss0.000": 0.98415,
+  "expF_miss0.041": 0.98411,
+  "expF_excl_miss0.041": 0.98413,
+  "B0_core_name_equal": 0.42236,
+  "B1_core_equal_and_best_for_target": 0.71376,
+  "B2_combo>=0.5_best_for_target": 0.7359,
+  "B2_combo>=0.6_best_for_target": 0.75146,
+  "B2_combo>=0.7_best_for_target": 0.76697,
+  "B2_combo>=0.8_best_for_target": 0.76659
+ },
+ "best_rule": [
+  "thr_0.7_excl",
+  0.98456
+ ],
+ "by_country": {
+  "India": {
+   "thr_0.5_excl": 0.98229,
+   "expF_excl": 0.98393
+  },
+  "US": {
+   "thr_0.5_excl": 0.9829,
+   "expF_excl": 0.98426
+  }
+ },
+ "importance_gain": [
+  [
+   "c_combo_tmargin",
+   19612016.719816685
+  ],
+  [
+   "c_combo_trank",
+   11619717.57066536
+  ],
+  [
+   "r_rev",
+   5468514.187031388
+  ],
+  [
+   "a_q_num_missing",
+   2314168.6018083096
+  ],
+  [
+   "c_combo_tgap",
+   1861983.74499619
+  ],
+  [
+   "n_idf_cov_t",
+   962152.5681787729
+  ],
+  [
+   "a_num_jacc",
+   655645.147085309
+  ],
+  [
+   "a_tset",
+   617599.2460564375
+  ],
+  [
+   "n_tsort",
+   479021.73766052723
+  ],
+  [
+   "a_first_num_eq",
+   350140.749571681
+  ],
+  [
+   "n_len_t",
+   269697.3784211874
+  ],
+  [
+   "e_full_tmargin",
+   264009.6993281841
+  ],
+  [
+   "n_cat_partial",
+   210591.69679653645
+  ],
+  [
+   "c_nword",
+   195261.55324411392
+  ],
+  [
+   "n_cat_lev",
+   172728.9804826975
+  ],
+  [
+   "n_jacc",
+   153317.59050893784
+  ],
+  [
+   "n_idf_cov_q",
+   147191.84753155708
+  ],
+  [
+   "n_jw",
+   109403.66351759434
+  ],
+  [
+   "a_bignum_jacc",
+   93980.75080573559
+  ],
+  [
+   "a_tsort",
+   90082.71701991558
+  ],
+  [
+   "c_combo_qrank",
+   77360.51299750805
+  ],
+  [
+   "n_idf_jacc",
+   75964.28585016727
+  ],
+  [
+   "a_num_shared",
+   70739.38928639889
+  ],
+  [
+   "n_first_tok_eq",
+   67165.4011900425
+  ],
+  [
+   "e_name",
+   66351.98789358139
+  ],
+  [
+   "a_idf_cov_t",
+   65692.42905414104
+  ],
+  [
+   "n_partial",
+   65378.15698432922
+  ],
+  [
+   "q_nm_freq_s1",
+   65338.61855572462
+  ],
+  [
+   "c_name",
+   64633.677557349205
+  ],
+  [
+   "n_max_shared_idf",
+   63819.50391244888
+  ],
+  [
+   "a_ratio",
+   63757.056544303894
+  ],
+  [
+   "n_core_extra",
+   62505.98545002937
+  ],
+  [
+   "s_addr",
+   58443.543821930885
+  ],
+  [
+   "n_tset",
+   57897.83180475235
+  ],
+  [
+   "q_ncand",
+   57598.07994508743
+  ],
+  [
+   "e_full_qrank",
+   57317.79550230503
+  ],
+  [
+   "r_cat",
+   53416.86665582657
+  ],
+  [
+   "t_nm_freq_t",
+   50094.76888728142
+  ],
+  [
+   "r_combo",
+   49500.22360062599
+  ],
+  [
+   "e_full_trank",
+   47548.93226766586
+  ],
+  [
+   "e_full_tgap",
+   44266.03816533089
+  ],
+  [
+   "c_cat",
+   43093.31530714035
+  ],
+  [
+   "a_partial",
+   42379.19092953205
+  ],
+  [
+   "n_cat_ratio",
+   42282.381966114044
+  ],
+  [
+   "n_wratio",
+   42177.702667713165
+  ],
+  [
+   "c_name_tmargin",
+   40214.967965722084
+  ],
+  [
+   "c_addr_tmargin",
+   39719.6962505579
+  ],
+  [
+   "n_ratio",
+   38945.92207086086
+  ],
+  [
+   "c_name_qgap",
+   37710.02779185772
+  ],
+  [
+   "t_nm_freq_s1",
+   36844.30522060394
+  ],
+  [
+   "c_addr_qrank",
+   34436.81599676609
+  ],
+  [
+   "c_addr",
+   33050.077425956726
+  ],
+  [
+   "n_len_q",
+   32550.795730233192
+  ],
+  [
+   "a_idf_jacc",
+   31498.361082553864
+  ],
+  [
+   "a_max_shared_idf",
+   30689.165946125984
+  ],
+  [
+   "n_trunc_prefix",
+   30042.32466983795
+  ],
+  [
+   "c_combo_qgap",
+   29202.360241293907
+  ],
+  [
+   "s_name",
+   29154.054646372795
+  ],
+  [
+   "t_has_dom",
+   28236.227313876152
+  ],
+  [
+   "n_phon_jacc",
+   28112.964084863663
+  ],
+  [
+   "e_full_qgap",
+   27985.775320529938
+  ],
+  [
+   "s_rev",
+   27889.151433110237
+  ],
+  [
+   "e_full",
+   27617.291952252388
+  ],
+  [
+   "n_core_jacc",
+   26879.459946751595
+  ],
+  [
+   "c_name_tgap",
+   26804.820214033127
+  ],
+  [
+   "c_combo",
+   23648.75284266472
+  ],
+  [
+   "c_addr_qgap",
+   23550.658795952797
+  ],
+  [
+   "c_name_qrank",
+   21911.646286725998
+  ],
+  [
+   "e_addr",
+   20456.86103975773
+  ],
+  [
+   "s_combo",
+   19143.796484589577
+  ],
+  [
+   "n_core_missing",
+   18699.680892705917
+  ],
+  [
+   "s_cat",
+   18397.768463611603
+  ],
+  [
+   "n_dom_prefix_cov",
+   16359.896128416061
+  ],
+  [
+   "t_nm_scr",
+   14886.685469269753
+  ],
+  [
+   "c_name_trank",
+   13686.141470074654
+  ],
+  [
+   "r_addr",
+   13304.388700127602
+  ],
+  [
+   "r_name",
+   11215.43405354023
+  ],
+  [
+   "c_addr_trank",
+   9448.914714217186
+  ],
+  [
+   "c_addr_tgap",
+   9203.282090425491
+  ],
+  [
+   "t_nq",
+   7073.0671553611755
+  ],
+  [
+   "n_core_eq",
+   4618.568427324295
+  ],
+  [
+   "t_src",
+   3450.6542907953262
+  ],
+  [
+   "t_ad_scr",
+   1531.4957954883575
+  ],
+  [
+   "n_initials",
+   1199.2063964605331
+  ],
+  [
+   "n_alias_core_jacc",
+   335.9312388896942
+  ],
+  [
+   "a_t_empty",
+   124.01312208175659
+  ],
+  [
+   "t_has_alias",
+   47.37713098526001
+  ]
+ ],
+ "t_total": 378.4381911754608
+}

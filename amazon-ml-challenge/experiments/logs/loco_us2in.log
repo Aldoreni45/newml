@@ -1,0 +1,211 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-ikgH0nVjhVgrbwgYOsEZln
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_train.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function train.
+├── 🔨 Created function train_cv.
+└── 🔨 Created function evaluate_models.
+[200]   es's binary_logloss: 0.00608313
+[400]   es's binary_logloss: 0.00597925
+{
+ "tag": "loco_us2in",
+ "feat_tag": "v1",
+ "params": {
+  "objective": "binary",
+  "learning_rate": 0.08,
+  "num_leaves": 255,
+  "min_data_in_leaf": 400,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.7,
+  "bagging_freq": 1,
+  "lambda_l2": 1.0,
+  "max_bin": 127,
+  "num_threads": 32,
+  "verbose": -1,
+  "seed": 42,
+  "deterministic": true,
+  "force_row_wise": true
+ },
+ "n_features": 87,
+ "n_train": 11238923,
+ "n_es": 5648367,
+ "n_val": 3894740,
+ "train_countries": [
+  "US"
+ ],
+ "val_countries": [
+  "India"
+ ],
+ "best_iteration": 454,
+ "es_logloss": 0.005975327364480688,
+ "t_train": 151.69219970703125,
+ "val_blocking_pair_recall": 0.9862319359225449,
+ "extra_miss_mean": 0.04775445723313022,
+ "rules": {
+  "thr_0.2": 0.90871,
+  "thr_0.2_excl": 0.90921,
+  "thr_0.3": 0.91898,
+  "thr_0.3_excl": 0.91926,
+  "thr_0.4": 0.92579,
+  "thr_0.4_excl": 0.92596,
+  "thr_0.5": 0.93132,
+  "thr_0.5_excl": 0.93138,
+  "thr_0.6": 0.9354,
+  "thr_0.6_excl": 0.93542,
+  "thr_0.7": 0.93889,
+  "thr_0.7_excl": 0.93891,
+  "thr_0.8": 0.94182,
+  "thr_0.8_excl": 0.94184,
+  "thr_0.9": 0.94474,
+  "thr_0.9_excl": 0.94475,
+  "expF_miss0.000": 0.93863,
+  "expF_excl_miss0.000": 0.93866,
+  "expF_miss0.048": 0.93839,
+  "expF_excl_miss0.048": 0.93841,
+  "B0_core_name_equal": 0.38801,
+  "B1_core_equal_and_best_for_target": 0.74168,
+  "B2_combo>=0.5_best_for_target": 0.73378,
+  "B2_combo>=0.6_best_for_target": 0.74981,
+  "B2_combo>=0.7_best_for_target": 0.75716,
+  "B2_combo>=0.8_best_for_target": 0.74965
+ },
+ "best_rule": [
+  "thr_0.9_excl",
+  0.94475
+ ],
+ "by_country": {
+  "India": {
+   "thr_0.5_excl": 0.93138,
+   "expF_excl": 0.93841
+  }
+ },
+ "t_total": 175.32400369644165,
+ "top_importance": [
+  [
+   "c_combo_tmargin",
+   12514605.849440932
+  ],
+  [
+   "c_combo_trank",
+   6949117.8118133545
+  ],
+  [
+   "r_rev",
+   2705015.5257314444
+  ],
+  [
+   "a_q_num_missing",
+   1400967.7437007427
+  ],
+  [
+   "c_combo_tgap",
+   1015969.1761653423
+  ],
+  [
+   "n_idf_cov_t",
+   597001.8213530779
+  ],
+  [
+   "a_num_jacc",
+   403089.7391421795
+  ],
+  [
+   "a_tset",
+   334729.06431007385
+  ],
+  [
+   "a_first_num_eq",
+   308586.5340462923
+  ],
+  [
+   "n_tsort",
+   257669.93028879166
+  ],
+  [
+   "a_bignum_jacc",
+   171921.7812730074
+  ],
+  [
+   "n_len_t",
+   155075.49511182308
+  ],
+  [
+   "e_full_tgap",
+   128859.16535508633
+  ],
+  [
+   "c_nword",
+   103959.86430346966
+  ],
+  [
+   "a_tsort",
+   88270.49786043167
+  ],
+  [
+   "n_idf_cov_q",
+   67602.4206417799
+  ],
+  [
+   "n_cat_lev",
+   61622.62918531895
+  ],
+  [
+   "n_jacc",
+   60934.69138729572
+  ],
+  [
+   "n_jw",
+   58977.3813290596
+  ],
+  [
+   "n_core_extra",
+   52264.221170306206
+  ],
+  [
+   "n_first_tok_eq",
+   49110.91816055775
+  ],
+  [
+   "n_cat_partial",
+   48113.74986696243
+  ],
+  [
+   "e_name",
+   47302.34786295891
+  ],
+  [
+   "c_combo_qrank",
+   41448.947336912155
+  ],
+  [
+   "e_full_tmargin",
+   37292.95682346821
+  ],
+  [
+   "r_cat",
+   36470.32415509224
+  ],
+  [
+   "a_partial",
+   35573.10978090763
+  ],
+  [
+   "n_max_shared_idf",
+   35427.469930410385
+  ],
+  [
+   "q_ncand",
+   35149.14371204376
+  ],
+  [
+   "n_wratio",
+   30763.600956320763
+  ]
+ ]
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-ikgH0nVjhVgrbwgYOsEZln

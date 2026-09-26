@@ -1,0 +1,51 @@
+{
+  "train/train_ground_truth.tsv": {
+    "rows": 2206821,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 2206821
+  },
+  "train/train_source1.tsv": {
+    "rows": 2206821,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 2206821
+  },
+  "train/train_source2.tsv": {
+    "rows": 5034616,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 5034616
+  },
+  "train/train_source3.tsv": {
+    "rows": 5285603,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 5285603
+  },
+  "test/test_source1.tsv": {
+    "rows": 1732544,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 1732544
+  },
+  "test/test_source2.tsv": {
+    "rows": 4887273,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 4887273
+  },
+  "test/test_source3.tsv": {
+    "rows": 5082316,
+    "bad_tab_rows": 0,
+    "bad_examples": [],
+    "crlf_rows": 0,
+    "parquet_rows": 5082316
+  }
+}

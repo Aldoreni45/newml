@@ -1,0 +1,61 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-TU03hflJEI5Rvci81HBUfo
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_collective.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function collective.
+modal : ┌─ Error ─────────────────────────────────────────────────────────────────────┐
+At line:1 char:386
++ ... NG="utf-8"; modal run --detach modal_app/stage_collective.py --split  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (┌─ Error ──────...──────────────┐:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+│ [Errno 11001] getaddrinfo failed                                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<get_app_logs_loop() done, defined at 
+C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py:542> 
+exception=ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, 
+None)>
+Traceback (most recent call last):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py", line 646, in 
+get_app_logs_loop
+    await _get_logs()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py", line 606, in 
+_get_logs
+    async for log_batch in client.stub.AppGetLogs.unary_stream(request):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_grpc_client.py", line 170, in 
+unary_stream
+    async for response in self.client._call_stream(self.wrapped_method, request, metadata=metadata):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\client.py", line 342, in 
+_call_stream
+    await self._call_safely(stream.send_message(request, end=True), f"{grpclib_method.name}.send_message")
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\client.py", line 290, in 
+_call_safely
+    return await request_task
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 242, in 
+send_message
+    await self.send_request()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 174, in 
+send_request
+    protocol = await self._channel.__connect__()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 748, in 
+__connect__
+    self._protocol = await self._create_connection()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 725, in 
+_create_connection
+    _, protocol = await self._loop.create_connection(
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1090, in 
+create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1120, in 
+_create_connection_transport
+    await waiter
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 854, in 
+_read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

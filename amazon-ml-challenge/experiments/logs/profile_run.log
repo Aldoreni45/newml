@@ -1,0 +1,261 @@
+﻿✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-difE2VzosVUUy9WIDJruDi
+Building image im-dMFow209vnLEWqXuvhwEyW
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install numpy==1.26.4 pandas==2.2.2 polars==1.9.0 pyarrow==17.0.0 rapidfuzz==3.10.0 scikit-learn==1.5.2 scipy==1.13.1 unidecode==1.3.8
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting numpy==1.26.4
+  Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting pandas==2.2.2
+  Downloading http://pypi-mirror.modal.local:5555/simple/pandas/pandas-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+Collecting polars==1.9.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/polars/polars-1.9.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Collecting pyarrow==17.0.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/pyarrow/pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting rapidfuzz==3.10.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/rapidfuzz/rapidfuzz-3.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting scikit-learn==1.5.2
+  Downloading http://pypi-mirror.modal.local:5555/simple/scikit-learn/scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Collecting scipy==1.13.1
+  Downloading http://pypi-mirror.modal.local:5555/simple/scipy/scipy-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting unidecode==1.3.8
+  Downloading http://pypi-mirror.modal.local:5555/simple/unidecode/Unidecode-1.3.8-py3-none-any.whl.metadata (13 kB)
+Collecting python-dateutil>=2.8.2 (from pandas==2.2.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas==2.2.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/pytz/pytz-2026.4-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.2.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/tzdata/tzdata-2026.4-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting joblib>=1.2.0 (from scikit-learn==1.5.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn==1.5.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/threadpoolctl/threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.2.0->scikit-learn==1.5.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/cloudpickle/cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas==2.2.2)
+  Downloading http://pypi-mirror.modal.local:5555/simple/six/six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 159.6 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/pandas/pandas-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 136.3 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/polars/polars-1.9.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (33.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.1/33.1 MB 114.5 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/pyarrow/pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl (39.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 39.9/39.9 MB 131.4 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/rapidfuzz/rapidfuzz-3.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 140.6 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/scikit-learn/scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 86.5 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/scipy/scipy-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 22.1 MB/s  0:00:01
+Downloading http://pypi-mirror.modal.local:5555/simple/unidecode/Unidecode-1.3.8-py3-none-any.whl (235 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.6.0-py3-none-any.whl (306 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/cloudpickle/cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/pytz/pytz-2026.4-py2.py3-none-any.whl (506 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/six/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/threadpoolctl/threadpoolctl-3.7.0-py3-none-any.whl (26 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/tzdata/tzdata-2026.4-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, unidecode, tzdata, threadpoolctl, six, rapidfuzz, polars, numpy, cloudpickle, scipy, python-dateutil, pyarrow, joblib, scikit-learn, pandas
+
+Successfully installed cloudpickle-3.1.2 joblib-1.6.0 numpy-1.26.4 pandas-2.2.2 polars-1.9.0 pyarrow-17.0.0 python-dateutil-2.9.0.post0 pytz-2026.4 rapidfuzz-3.10.0 scikit-learn-1.5.2 scipy-1.13.1 six-1.17.0 threadpoolctl-3.7.0 tzdata-2026.4 unidecode-1.3.8
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 1.89s
+
+Built image im-dMFow209vnLEWqXuvhwEyW in 24.50s
+
+
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\profile_data.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function extract.
+└── 🔨 Created function profile.
+{
+ "train/train_ground_truth.tsv": {
+  "rows": 2206821,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 2206821
+ },
+ "train/train_source1.tsv": {
+  "rows": 2206821,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 2206821
+ },
+ "train/train_source2.tsv": {
+  "rows": 5034616,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 5034616
+ },
+ "train/train_source3.tsv": {
+  "rows": 5285603,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 5285603
+ },
+ "test/test_source1.tsv": {
+  "rows": 1732544,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 1732544
+ },
+ "test/test_source2.tsv": {
+  "rows": 4887273,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 4887273
+ },
+ "test/test_source3.tsv": {
+  "rows": 5082316,
+  "bad_tab_rows": 0,
+  "bad_examples": [],
+  "crlf_rows": 0,
+  "parquet_rows": 5082316
+ }
+}
+{
+ "ground_truth": {
+  "rows": 2206821,
+  "unique_s1": 2206821,
+  "s1_in_file_not_in_gt": 0,
+  "gt_not_in_s1_file": 0,
+  "n_pairs": 7638365,
+  "pairs_by_src": {
+   "S2": 3693619,
+   "S3": 3944746
+  },
+  "match_count_dist": {
+   "0": 123247,
+   "1": 119157,
+   "2": 375212,
+   "3": 530841,
+   "4": 484115,
+   "5": 321957,
+   "6": 164868,
+   "7": 63968,
+   "8": 18680,
+   "9": 4205,
+   "10": 534,
+   "11": 37
+  },
+  "s2_count_dist": {
+   "0": 287745,
+   "1": 789108,
+   "2": 652779,
+   "3": 333957,
+   "4": 119078,
+   "5": 24154
+  },
+  "s3_count_dist": {
+   "0": 266276,
+   "1": 716417,
+   "2": 668375,
+   "3": 372443,
+   "4": 145116,
+   "5": 35378,
+   "6": 2816
+  },
+  "singleton_rate": 0.05584820880352326,
+  "by_country": {
+   "India": {
+    "n_s1": 883188,
+    "singleton_rate": 0.05587825015738439,
+    "mean_matches": 3.4645432229604567,
+    "mean_s2": 1.6763644886479436,
+    "mean_s3": 1.7881787343125133,
+    "match_count_dist": {
+     "0": 49351,
+     "1": 47468,
+     "2": 149927,
+     "3": 211965,
+     "4": 193669,
+     "5": 129339,
+     "6": 66462,
+     "7": 25669,
+     "8": 7463,
+     "9": 1671,
+     "10": 187,
+     "11": 17
+    }
+   },
+   "US": {
+    "n_s1": 1323633,
+    "singleton_rate": 0.055828163849042746,
+    "mean_matches": 3.4590570044717834,
+    "mean_s2": 1.6719694960763294,
+    "mean_s3": 1.787087508395454,
+    "match_count_dist": {
+     "0": 73896,
+     "1": 71689,
+     "2": 225285,
+     "3": 318876,
+     "4": 290446,
+     "5": 192618,
+     "6": 98406,
+     "7": 38299,
+     "8": 11217,
+     "9": 2534,
+     "10": 347,
+     "11": 20
+    }
+   }
+  },
+  "target_multiplicity_dist": {
+   "1": 7638365
+  },
+  "S2_coverage": 0.7336446314872872,
+  "S2_coverage_by_country": {
+   "India": 0.7337425581041521,
+   "US": 0.7335791332387746
+  },
+  "S2_gt_ids_missing_from_file": 0,
+  "S3_coverage": 0.7463190103380826,
+  "S3_coverage_by_country": {
+   "India": 0.7465199307791318,
+   "US": 0.746184925439803
+  },
+  "S3_gt_ids_missing_from_file": 0
+ },
+ "leakage": {
+  "spearman_id_s1_vs_t": 0.00014035749100988103,
+  "spearman_row_s1_vs_row_S2": 0.0009547762079587727,
+  "spearman_row_s1_vs_row_S3": -0.0006552340409638641,
+  "S2_intra_entity_row_gap_q": {
+   "0.01": 17096.0,
+   "0.1": 178187.0,
+   "0.5": 1087819.0
+  },
+  "id_len_dist_s1": {
+   "6": 4,
+   "7": 20,
+   "8": 203,
+   "9": 2072,
+   "10": 19912,
+   "11": 198190,
+   "12": 1986420
+  },
+  "id_overlap_train_test_s1": 0,
+  "id_overlap_train_test_s2": 0,
+  "id_overlap_train_test_s3": 0,
+  "test_s1_exact_name_addr_in_train_s1": 0,
+  "test_s1_exact_name_in_train_s1": 584933
+ }
+}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-difE2VzosVUUy9WIDJruDi

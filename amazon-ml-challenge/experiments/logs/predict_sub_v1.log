@@ -1,0 +1,45 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-iRYVgNlwYd9Xjsej19OFq0
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_predict.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function predict.
+{
+ "rule": {
+  "type": "thr_excl",
+  "tau": 0.7
+ },
+ "model": "cv_v1_f1,cv_v1_f2,cv_v1_f3",
+ "feat": "v1",
+ "n_s1": 1732544,
+ "n_cand_pairs": 88397241,
+ "n_pred_pairs": 5856985,
+ "mean_pred_per_s1": 3.3805692669277088,
+ "empty_rate": 0.05625484836171549,
+ "by_country": {
+  "US": {
+   "n": 663106,
+   "mean_pred": 3.381887662002757,
+   "empty_rate": 0.056778252647389706
+  },
+  "India": {
+   "n": 809986,
+   "mean_pred": 3.35767408325576,
+   "empty_rate": 0.05751333973673619
+  },
+  "France": {
+   "n": 259452,
+   "mean_pred": 3.448676441114349,
+   "empty_rate": 0.050988236745139755
+  }
+ },
+ "p_sum_per_s1": 3.469308058813315,
+ "validator_exit": 0,
+ "validator_out": "ML Challenge 2026 \u2014 submission validator\n  test dir: /vol/data/test\n  required S1 entities: 1732544\n  valid S2/S3 match IDs: 9969589\n  matching_results.tsv: 1732544 rows (97464 empty, 1635080 non-empty).\n  candidate_pairs.tsv: 1732544 rows (0 empty, 1732544 non-empty).\n\nPASS \u2014 no blocking issues found. Safe to submit.\n",
+ "t_total": 1202.4389114379883
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-iRYVgNlwYd9Xjsej19OFq0

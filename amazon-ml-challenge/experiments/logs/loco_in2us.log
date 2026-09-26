@@ -1,0 +1,211 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-XYdjSarUUQXEw9mySuk3t8
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_train.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function train.
+├── 🔨 Created function train_cv.
+└── 🔨 Created function evaluate_models.
+[200]   es's binary_logloss: 0.00541481
+[400]   es's binary_logloss: 0.00522097
+{
+ "tag": "loco_in2us",
+ "feat_tag": "v1",
+ "params": {
+  "objective": "binary",
+  "learning_rate": 0.08,
+  "num_leaves": 255,
+  "min_data_in_leaf": 400,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.7,
+  "bagging_freq": 1,
+  "lambda_l2": 1.0,
+  "max_bin": 127,
+  "num_threads": 32,
+  "verbose": -1,
+  "seed": 42,
+  "deterministic": true,
+  "force_row_wise": true
+ },
+ "n_features": 87,
+ "n_train": 7773565,
+ "n_es": 3889622,
+ "n_val": 5593825,
+ "train_countries": [
+  "India"
+ ],
+ "val_countries": [
+  "US"
+ ],
+ "best_iteration": 422,
+ "es_logloss": 0.005212491905752139,
+ "t_train": 122.65624713897705,
+ "val_blocking_pair_recall": 0.9896586751133198,
+ "extra_miss_mean": 0.03580260918888259,
+ "rules": {
+  "thr_0.2": 0.94775,
+  "thr_0.2_excl": 0.94876,
+  "thr_0.3": 0.95814,
+  "thr_0.3_excl": 0.95867,
+  "thr_0.4": 0.96448,
+  "thr_0.4_excl": 0.96475,
+  "thr_0.5": 0.96874,
+  "thr_0.5_excl": 0.96889,
+  "thr_0.6": 0.97167,
+  "thr_0.6_excl": 0.97172,
+  "thr_0.7": 0.9731,
+  "thr_0.7_excl": 0.97313,
+  "thr_0.8": 0.97388,
+  "thr_0.8_excl": 0.9739,
+  "thr_0.9": 0.97211,
+  "thr_0.9_excl": 0.97211,
+  "expF_miss0.000": 0.97286,
+  "expF_excl_miss0.000": 0.97292,
+  "expF_miss0.036": 0.97279,
+  "expF_excl_miss0.036": 0.97284,
+  "B0_core_name_equal": 0.44539,
+  "B1_core_equal_and_best_for_target": 0.69504,
+  "B2_combo>=0.5_best_for_target": 0.73732,
+  "B2_combo>=0.6_best_for_target": 0.75256,
+  "B2_combo>=0.7_best_for_target": 0.77355,
+  "B2_combo>=0.8_best_for_target": 0.77794
+ },
+ "best_rule": [
+  "thr_0.8_excl",
+  0.9739
+ ],
+ "by_country": {
+  "US": {
+   "thr_0.5_excl": 0.96889,
+   "expF_excl": 0.97284
+  }
+ },
+ "t_total": 153.5564181804657,
+ "top_importance": [
+  [
+   "c_combo_tmargin",
+   8040189.494771838
+  ],
+  [
+   "c_combo_trank",
+   4691702.034331679
+  ],
+  [
+   "r_rev",
+   2299732.6569809914
+  ],
+  [
+   "a_q_num_missing",
+   866121.1372621059
+  ],
+  [
+   "c_combo_tgap",
+   453918.7323272228
+  ],
+  [
+   "n_idf_cov_t",
+   348523.9980638027
+  ],
+  [
+   "a_num_jacc",
+   253194.1775676012
+  ],
+  [
+   "n_cat_partial",
+   240957.49033904076
+  ],
+  [
+   "a_tset",
+   219426.7378963232
+  ],
+  [
+   "n_tsort",
+   166209.8336418867
+  ],
+  [
+   "a_first_num_eq",
+   112858.03293180466
+  ],
+  [
+   "n_jacc",
+   100763.1150854826
+  ],
+  [
+   "n_cat_lev",
+   96756.89249360561
+  ],
+  [
+   "c_combo_qrank",
+   79860.9066028595
+  ],
+  [
+   "c_nword",
+   68123.23510849476
+  ],
+  [
+   "n_idf_cov_q",
+   62660.20945942402
+  ],
+  [
+   "e_full_tmargin",
+   57390.59232068062
+  ],
+  [
+   "n_len_t",
+   57258.61719596386
+  ],
+  [
+   "n_partial",
+   55630.81077635288
+  ],
+  [
+   "n_jw",
+   54193.153945446014
+  ],
+  [
+   "a_idf_cov_t",
+   45349.40116751194
+  ],
+  [
+   "n_tset",
+   41511.92315816879
+  ],
+  [
+   "e_full_trank",
+   41237.53213202953
+  ],
+  [
+   "n_idf_jacc",
+   40490.75182378292
+  ],
+  [
+   "e_full_qrank",
+   39483.75459575653
+  ],
+  [
+   "n_cat_ratio",
+   35907.51974207163
+  ],
+  [
+   "a_tsort",
+   34795.812881827354
+  ],
+  [
+   "e_name",
+   34165.50332045555
+  ],
+  [
+   "e_full_tgap",
+   33763.588572740555
+  ],
+  [
+   "n_ratio",
+   33614.660227417946
+  ]
+ ]
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-XYdjSarUUQXEw9mySuk3t8

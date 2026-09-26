@@ -1,0 +1,39 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-ijiVECm5BuxUqsKYrUmm3D
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_collective.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function collective.
+{
+ "split": "train",
+ "n": 38039042,
+ "t": 705.0734915733337,
+ "cols_added": [
+  "p1",
+  "col_p_anchor",
+  "col_a_tset",
+  "col_n_tset",
+  "col_a_eq",
+  "col_n_eq",
+  "col_same_src",
+  "col_num_jacc",
+  "col_n_sib_addr90",
+  "col_n_sib_name90",
+  "col_n_conf",
+  "col_wsupport_addr",
+  "col_wsupport_name",
+  "col_num_agree_conf",
+  "col_best_sib_same_src",
+  "col_best_sib_other_src",
+  "col_isolated",
+  "p1_tmargin",
+  "p1_qrank",
+  "p1_qgap",
+  "p1_qsum"
+ ]
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-ijiVECm5BuxUqsKYrUmm3D

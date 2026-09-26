@@ -1,0 +1,13 @@
+{
+ "split": "train",
+ "model": "minishlab/potion-multilingual-128M",
+ "revision": "73908c3438cf03b6a01bcb9611d62b23d0726f08",
+ "n": 12527040,
+ "timing": {
+  "name": 700.7946619987488,
+  "addr": 692.1751847267151,
+  "full": 669.9237763881683
+ },
+ "dim": 256,
+ "t_total": 2138.625824689865
+}

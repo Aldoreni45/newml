@@ -1,0 +1,10 @@
+﻿modal : ┌─ Error: Resource exhausted ─────────────────────────────────────────────────┐
+At line:1 char:386
++ ... NG="utf-8"; modal run --detach modal_app/stage_chain.py::main 2>&1 |  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (┌─ Error: Resou...──────────────┐:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+│ Workspace ac-d3q4fJtLlBQdZtaGwt6ihq has exceeded its spend limit            │
+└─────────────────────────────────────────────────────────────────────────────┘
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.

@@ -1,0 +1,30 @@
+{
+  "_comment": "Final configuration (dense-regime stacked LightGBM). tau=null -> chosen on stage-2 OOF predictions. p1_competition requires train_folds_features='' (all folds).",
+  "prune": {
+    "rev": 8,
+    "combo": 10,
+    "name": 5,
+    "cat": 5,
+    "addr": 5
+  },
+  "dense_drop": {
+    "folds": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "frac": 0.311
+  },
+  "train_folds_features": "0,1,2,3",
+  "train_feat_tag": "v1_dense",
+  "cv_folds": "1,2,3",
+  "val_folds": "0",
+  "stage1_tag": "cv_v1d",
+  "stage2_tag": "cv_v2sd",
+  "tau": null,
+  "out_tag": "final",
+  "p1_competition": false
+}

@@ -1,0 +1,160 @@
+﻿✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-iryA64F5NBXl8K7YN74uLm
+Building image im-sDRQP9M1y5COzQU0ztOxxR
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install joblib==1.4.2 lightgbm==4.6.0 numba==0.60.0 sparse_dot_topn==1.1.5
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting joblib==1.4.2
+  Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting lightgbm==4.6.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/lightgbm/lightgbm-4.6.0-py3-none-manylinux_2_28_x86_64.whl.metadata (17 kB)
+Collecting numba==0.60.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/numba/numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+Collecting sparse_dot_topn==1.1.5
+  Downloading http://pypi-mirror.modal.local:5555/simple/sparse-dot-topn/sparse_dot_topn-1.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: numpy>=1.17.0 in /usr/local/lib/python3.11/site-packages (from lightgbm==4.6.0) (1.26.4)
+Requirement already satisfied: scipy in /usr/local/lib/python3.11/site-packages (from lightgbm==4.6.0) (1.13.1)
+Collecting llvmlite<0.44,>=0.43.0dev0 (from numba==0.60.0)
+  Downloading http://pypi-mirror.modal.local:5555/simple/llvmlite/llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.8 kB)
+Collecting psutil (from sparse_dot_topn==1.1.5)
+  Downloading http://pypi-mirror.modal.local:5555/simple/psutil/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.4.2-py3-none-any.whl (301 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/lightgbm/lightgbm-4.6.0-py3-none-manylinux_2_28_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 307.7 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/numba/numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 232.6 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/sparse-dot-topn/sparse_dot_topn-1.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (266 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/llvmlite/llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (43.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.9/43.9 MB 170.3 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/psutil/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Installing collected packages: psutil, llvmlite, joblib, sparse_dot_topn, numba, lightgbm
+  Attempting uninstall: joblib
+    Found existing installation: joblib 1.6.0
+    Uninstalling joblib-1.6.0:
+      Successfully uninstalled joblib-1.6.0
+
+Successfully installed joblib-1.4.2 lightgbm-4.6.0 llvmlite-0.43.0 numba-0.60.0 psutil-7.2.2 sparse_dot_topn-1.1.5
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 827.69ms
+
+Built image im-sDRQP9M1y5COzQU0ztOxxR in 5.49s
+
+
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_block.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function block.
+[modal-client] 2026-09-24T21:02:32+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=137.76, time_since_heartbeat_success=137.76, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T21:21:15+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=954.95, time_since_heartbeat_success=954.95, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T21:21:15+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 15.92 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T21:36:32+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=916.62, time_since_heartbeat_success=1871.57, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T21:36:32+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 31.19 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T21:56:26+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=1194.84, time_since_heartbeat_success=3066.41, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T21:56:26+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 51.11 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:00:08+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=221.42, time_since_heartbeat_success=3287.83, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:00:08+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 54.80 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:03:55+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=227.01, time_since_heartbeat_success=3514.84, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:03:55+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 58.58 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:29:34+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=1130.06, time_since_heartbeat_success=1130.06, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:29:34+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 18.83 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:42:02+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=747.71, time_since_heartbeat_success=1877.77, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:42:02+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 31.30 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:44:29+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=147.42, time_since_heartbeat_success=2025.19, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:44:29+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 33.75 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+[modal-client] 2026-09-24T22:46:54+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=144.60, time_since_heartbeat_success=2169.79, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-24T22:46:54+0000 Modal Client → Modal Worker heartbeat attempts have been failing for over 36.16 minutes. Container will eventually be marked unhealthy. See https://modal.com/docs/guide/troubleshooting#heartbeat-timeout. 
+{
+ "cfg": {
+  "K": {
+   "name": 40,
+   "cat": 20,
+   "addr": 40,
+   "combo": 40
+  },
+  "K_rev": 8,
+  "max_df": {
+   "name": 0.05,
+   "cat": 0.05,
+   "addr": 0.05
+  },
+  "w_name": 0.5,
+  "tag": "v1"
+ },
+ "countries": {
+  "France": {
+   "n_q": 259452,
+   "n_t": 1434993,
+   "timing": {
+    "vectorize": 59.67359519004822,
+    "name": 32.36702489852905,
+    "cat": 35.30507755279541,
+    "addr": 7.586264610290527,
+    "combo": 41.811362981796265,
+    "rev": 35.85396385192871,
+    "total": 266.2442545890808
+   },
+   "vocab": {
+    "name": 16385,
+    "cat": 18153,
+    "addr": 45384
+   },
+   "n_cands": 30240404,
+   "cands_per_q": 116.5549080369394
+  },
+  "India": {
+   "n_q": 809986,
+   "n_t": 4717565,
+   "timing": {
+    "vectorize": 121.2063992023468,
+    "name": 686.0339493751526,
+    "cat": 781.4503955841064,
+    "addr": 418.26878452301025,
+    "combo": 1121.9510016441345,
+    "rev": 617.8624198436737,
+    "total": 3923.4506170749664
+   },
+   "vocab": {
+    "name": 20382,
+    "cat": 22766,
+    "addr": 295581
+   },
+   "n_cands": 97909518,
+   "cands_per_q": 120.87803739817726
+  },
+  "US": {
+   "n_q": 663106,
+   "n_t": 3817031,
+   "timing": {
+    "vectorize": 107.46582651138306,
+    "name": 569.7153716087341,
+    "cat": 551.8620598316193,
+    "addr": 108.51708221435547,
+    "combo": 642.6629796028137,
+    "rev": 322.0490372180939,
+    "total": 2437.058559656143
+   },
+   "vocab": {
+    "name": 20140,
+    "cat": 28774,
+    "addr": 166918
+   },
+   "n_cands": 76691831,
+   "cands_per_q": 115.65546232427394
+  }
+ },
+ "n_cands": 204841753,
+ "n_q": 1732544,
+ "cands_per_q": 118.23177535462303,
+ "time_total": 6898.231833219528
+}
+Stopping app - local entrypoint completed.
+[modal-client] 2026-09-24T22:54:26+0000 Detected 1 background thread(s) [ExecutorManagerThread] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-iryA64F5NBXl8K7YN74uLm

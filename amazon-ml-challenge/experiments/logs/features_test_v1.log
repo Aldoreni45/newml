@@ -1,0 +1,136 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-esYnif3Ru6R4Z9IXWFNXHS
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_features.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function features.
+cosines done 802 s
+context done 911 s
+[modal-client] 2026-09-25T00:23:06+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=96.22, time_since_heartbeat_success=96.22, error=ConnectionError('Deadline exceeded'))
+[modal-client] 2026-09-25T00:24:37+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=90.80, time_since_heartbeat_success=187.02, error=ConnectionError('Deadline exceeded'))
+fuzz done 1121 s
+tokens done 1379 s
+{
+ "split": "test",
+ "cands_tag": "v1",
+ "tag": "v1",
+ "folds": "",
+ "timing": {
+  "cosines": 802.339385509491,
+  "context": 911.2479333877563,
+  "fuzz": 1120.6546640396118,
+  "tokens": 1378.8036196231842,
+  "total": 2150.9354090690613
+ },
+ "n_pairs_all": 204841753,
+ "prune": {
+  "rev": 8,
+  "combo": 10,
+  "name": 5,
+  "cat": 5,
+  "addr": 5
+ },
+ "n_pairs_pruned": 88397241,
+ "embeddings": "potion-multilingual-128M",
+ "n_pairs": 88397241,
+ "n_cols": 90,
+ "columns": [
+  "q",
+  "t",
+  "s_name",
+  "r_name",
+  "s_cat",
+  "r_cat",
+  "s_addr",
+  "r_addr",
+  "s_combo",
+  "r_combo",
+  "s_rev",
+  "r_rev",
+  "c_name",
+  "c_cat",
+  "c_nword",
+  "c_addr",
+  "c_combo",
+  "e_name",
+  "e_addr",
+  "e_full",
+  "c_combo_qrank",
+  "c_combo_qgap",
+  "c_combo_trank",
+  "c_combo_tgap",
+  "c_name_qrank",
+  "c_name_qgap",
+  "c_name_trank",
+  "c_name_tgap",
+  "c_addr_qrank",
+  "c_addr_qgap",
+  "c_addr_trank",
+  "c_addr_tgap",
+  "e_full_qrank",
+  "e_full_qgap",
+  "e_full_trank",
+  "e_full_tgap",
+  "q_ncand",
+  "t_nq",
+  "c_combo_tmargin",
+  "c_name_tmargin",
+  "c_addr_tmargin",
+  "e_full_tmargin",
+  "fold",
+  "n_ratio",
+  "n_tsort",
+  "n_tset",
+  "n_partial",
+  "n_wratio",
+  "n_jw",
+  "n_cat_ratio",
+  "n_cat_partial",
+  "n_cat_lev",
+  "a_ratio",
+  "a_tsort",
+  "a_tset",
+  "a_partial",
+  "n_jacc",
+  "n_idf_jacc",
+  "n_idf_cov_q",
+  "n_idf_cov_t",
+  "n_max_shared_idf",
+  "n_core_jacc",
+  "n_core_eq",
+  "n_first_tok_eq",
+  "n_initials",
+  "n_phon_jacc",
+  "n_alias_core_jacc",
+  "n_len_q",
+  "n_len_t",
+  "n_core_missing",
+  "n_core_extra",
+  "n_trunc_prefix",
+  "a_num_jacc",
+  "a_first_num_eq",
+  "a_num_shared",
+  "a_q_num_missing",
+  "a_bignum_jacc",
+  "a_idf_jacc",
+  "a_idf_cov_t",
+  "a_max_shared_idf",
+  "a_t_empty",
+  "t_src",
+  "t_nm_scr",
+  "t_ad_scr",
+  "t_has_dom",
+  "t_has_alias",
+  "q_nm_freq_s1",
+  "t_nm_freq_s1",
+  "t_nm_freq_t",
+  "n_dom_prefix_cov"
+ ]
+}
+[modal-client] 2026-09-25T00:42:29+0000 Detected 1 background thread(s) [ExecutorManagerThread] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-esYnif3Ru6R4Z9IXWFNXHS

@@ -1,0 +1,212 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-Bp1CJ3AX56awEXjstnzPo2
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_train.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function train.
+├── 🔨 Created function train_cv.
+└── 🔨 Created function evaluate_models.
+[200]   es's binary_logloss: 0.00635412
+[400]   es's binary_logloss: 0.0061392
+[600]   es's binary_logloss: 0.00612782
+{
+ "tag": "lc_1fold",
+ "feat_tag": "v1",
+ "params": {
+  "objective": "binary",
+  "learning_rate": 0.08,
+  "num_leaves": 255,
+  "min_data_in_leaf": 400,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.7,
+  "bagging_freq": 1,
+  "lambda_l2": 1.0,
+  "max_bin": 127,
+  "num_threads": 32,
+  "verbose": -1,
+  "seed": 42,
+  "deterministic": true,
+  "force_row_wise": true
+ },
+ "n_features": 87,
+ "n_train": 9518196,
+ "n_es": 9537989,
+ "n_val": 9488565,
+ "train_countries": null,
+ "val_countries": null,
+ "best_iteration": 530,
+ "es_logloss": 0.006118904491392308,
+ "t_train": 174.27315735816956,
+ "val_blocking_pair_recall": 0.9882820821456624,
+ "extra_miss_mean": 0.04059860988476081,
+ "rules": {
+  "thr_0.2": 0.97001,
+  "thr_0.2_excl": 0.97081,
+  "thr_0.3": 0.97629,
+  "thr_0.3_excl": 0.9766,
+  "thr_0.4": 0.97977,
+  "thr_0.4_excl": 0.97992,
+  "thr_0.5": 0.98185,
+  "thr_0.5_excl": 0.98194,
+  "thr_0.6": 0.98314,
+  "thr_0.6_excl": 0.98319,
+  "thr_0.7": 0.98377,
+  "thr_0.7_excl": 0.9838,
+  "thr_0.8": 0.98361,
+  "thr_0.8_excl": 0.98363,
+  "thr_0.9": 0.98202,
+  "thr_0.9_excl": 0.98203,
+  "expF_miss0.000": 0.98335,
+  "expF_excl_miss0.000": 0.9834,
+  "expF_miss0.041": 0.9833,
+  "expF_excl_miss0.041": 0.98335,
+  "B0_core_name_equal": 0.42236,
+  "B1_core_equal_and_best_for_target": 0.71376,
+  "B2_combo>=0.5_best_for_target": 0.7359,
+  "B2_combo>=0.6_best_for_target": 0.75146,
+  "B2_combo>=0.7_best_for_target": 0.76697,
+  "B2_combo>=0.8_best_for_target": 0.76659
+ },
+ "best_rule": [
+  "thr_0.7_excl",
+  0.9838
+ ],
+ "by_country": {
+  "India": {
+   "thr_0.5_excl": 0.98123,
+   "expF_excl": 0.98287
+  },
+  "US": {
+   "thr_0.5_excl": 0.98241,
+   "expF_excl": 0.98367
+  }
+ },
+ "t_total": 229.74193334579468,
+ "top_importance": [
+  [
+   "c_combo_tmargin",
+   9807990.709653378
+  ],
+  [
+   "c_combo_trank",
+   5823925.475450039
+  ],
+  [
+   "r_rev",
+   2833458.1093951464
+  ],
+  [
+   "a_q_num_missing",
+   1161060.3998494148
+  ],
+  [
+   "c_combo_tgap",
+   808290.514721036
+  ],
+  [
+   "n_idf_cov_t",
+   485837.55579149723
+  ],
+  [
+   "a_num_jacc",
+   326083.14816868305
+  ],
+  [
+   "a_tset",
+   300396.5660287142
+  ],
+  [
+   "n_tsort",
+   245232.34115850925
+  ],
+  [
+   "a_first_num_eq",
+   177427.44290554523
+  ],
+  [
+   "e_full_tmargin",
+   133458.24504423141
+  ],
+  [
+   "n_len_t",
+   132923.95250093937
+  ],
+  [
+   "n_cat_partial",
+   104854.90101122856
+  ],
+  [
+   "c_nword",
+   104158.59152054787
+  ],
+  [
+   "n_cat_lev",
+   87252.38882935047
+  ],
+  [
+   "n_idf_cov_q",
+   74373.03656637669
+  ],
+  [
+   "n_jacc",
+   73027.5370579958
+  ],
+  [
+   "n_jw",
+   53770.919003009796
+  ],
+  [
+   "a_bignum_jacc",
+   48234.820105195045
+  ],
+  [
+   "a_tsort",
+   43595.54868018627
+  ],
+  [
+   "n_idf_jacc",
+   40140.911878585815
+  ],
+  [
+   "c_combo_qrank",
+   40011.742805600166
+  ],
+  [
+   "e_name",
+   38883.18427884579
+  ],
+  [
+   "n_partial",
+   38663.74256455898
+  ],
+  [
+   "e_full_qrank",
+   35886.49425572157
+  ],
+  [
+   "a_num_shared",
+   35541.00334358215
+  ],
+  [
+   "n_max_shared_idf",
+   34672.55809742212
+  ],
+  [
+   "s_addr",
+   32323.702913045883
+  ],
+  [
+   "a_idf_cov_t",
+   32107.074722111225
+  ],
+  [
+   "n_core_extra",
+   31331.907837748528
+  ]
+ ]
+}
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-Bp1CJ3AX56awEXjstnzPo2

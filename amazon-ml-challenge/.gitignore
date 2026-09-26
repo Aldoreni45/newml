@@ -1,0 +1,9 @@
+student_resource/
+experiments/artifacts/
+output/
+*.parquet
+*.npy
+*.npz
+__pycache__/
+.venv/
+*.zip

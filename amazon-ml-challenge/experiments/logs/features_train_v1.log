@@ -1,0 +1,183 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-lvNCdpIacxasxaGSW23bw8
+Building image im-Jd2ZhaMsK3W03aTAccKTWw
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install joblib==1.4.2 lightgbm==4.6.0 numba==0.60.0 sparse_dot_topn==1.1.5
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting joblib==1.4.2
+  Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting lightgbm==4.6.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/lightgbm/lightgbm-4.6.0-py3-none-manylinux_2_28_x86_64.whl.metadata (17 kB)
+Collecting numba==0.60.0
+  Downloading http://pypi-mirror.modal.local:5555/simple/numba/numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+Collecting sparse_dot_topn==1.1.5
+  Downloading http://pypi-mirror.modal.local:5555/simple/sparse-dot-topn/sparse_dot_topn-1.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Requirement already satisfied: numpy>=1.17.0 in /usr/local/lib/python3.11/site-packages (from lightgbm==4.6.0) (1.26.4)
+Requirement already satisfied: scipy in /usr/local/lib/python3.11/site-packages (from lightgbm==4.6.0) (1.13.1)
+Collecting llvmlite<0.44,>=0.43.0dev0 (from numba==0.60.0)
+  Downloading http://pypi-mirror.modal.local:5555/simple/llvmlite/llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.8 kB)
+Collecting psutil (from sparse_dot_topn==1.1.5)
+  Downloading http://pypi-mirror.modal.local:5555/simple/psutil/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/joblib/joblib-1.4.2-py3-none-any.whl (301 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/lightgbm/lightgbm-4.6.0-py3-none-manylinux_2_28_x86_64.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 511.4 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/numba/numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 207.8 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/sparse-dot-topn/sparse_dot_topn-1.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (266 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/llvmlite/llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (43.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.9/43.9 MB 233.7 MB/s  0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/psutil/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Installing collected packages: psutil, llvmlite, joblib, sparse_dot_topn, numba, lightgbm
+  Attempting uninstall: joblib
+    Found existing installation: joblib 1.6.0
+    Uninstalling joblib-1.6.0:
+      Successfully uninstalled joblib-1.6.0
+
+Successfully installed joblib-1.4.2 lightgbm-4.6.0 llvmlite-0.43.0 numba-0.60.0 psutil-7.2.2 sparse_dot_topn-1.1.5
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 634.71ms
+
+Built image im-Jd2ZhaMsK3W03aTAccKTWw in 5.81s
+
+
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_features.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+└── 🔨 Created function features.
+cosines done 983 s
+context done 1134 s
+[modal-client] 2026-09-24T23:54:03+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=79.87, time_since_heartbeat_success=79.87, error=ConnectionError('Deadline exceeded'))
+fuzz done 1253 s
+tokens done 1422 s
+{
+ "split": "train",
+ "cands_tag": "v1",
+ "tag": "v1",
+ "folds": "0,1,2,3",
+ "timing": {
+  "cosines": 983.2681255340576,
+  "context": 1133.98646235466,
+  "fuzz": 1253.0339992046356,
+  "tokens": 1421.6732559204102,
+  "total": 1893.3798277378082
+ },
+ "n_pairs_all": 247730992,
+ "prune": {
+  "rev": 8,
+  "combo": 10,
+  "name": 5,
+  "cat": 5,
+  "addr": 5
+ },
+ "n_pairs_pruned": 95190660,
+ "embeddings": "potion-multilingual-128M",
+ "n_pairs": 38039042,
+ "pos_rate": 0.07940536462511333,
+ "n_pos": 3020504,
+ "n_cols": 91,
+ "columns": [
+  "q",
+  "t",
+  "s_name",
+  "r_name",
+  "s_cat",
+  "r_cat",
+  "s_addr",
+  "r_addr",
+  "s_combo",
+  "r_combo",
+  "s_rev",
+  "r_rev",
+  "c_name",
+  "c_cat",
+  "c_nword",
+  "c_addr",
+  "c_combo",
+  "e_name",
+  "e_addr",
+  "e_full",
+  "c_combo_qrank",
+  "c_combo_qgap",
+  "c_combo_trank",
+  "c_combo_tgap",
+  "c_name_qrank",
+  "c_name_qgap",
+  "c_name_trank",
+  "c_name_tgap",
+  "c_addr_qrank",
+  "c_addr_qgap",
+  "c_addr_trank",
+  "c_addr_tgap",
+  "e_full_qrank",
+  "e_full_qgap",
+  "e_full_trank",
+  "e_full_tgap",
+  "q_ncand",
+  "t_nq",
+  "c_combo_tmargin",
+  "c_name_tmargin",
+  "c_addr_tmargin",
+  "e_full_tmargin",
+  "fold",
+  "n_ratio",
+  "n_tsort",
+  "n_tset",
+  "n_partial",
+  "n_wratio",
+  "n_jw",
+  "n_cat_ratio",
+  "n_cat_partial",
+  "n_cat_lev",
+  "a_ratio",
+  "a_tsort",
+  "a_tset",
+  "a_partial",
+  "n_jacc",
+  "n_idf_jacc",
+  "n_idf_cov_q",
+  "n_idf_cov_t",
+  "n_max_shared_idf",
+  "n_core_jacc",
+  "n_core_eq",
+  "n_first_tok_eq",
+  "n_initials",
+  "n_phon_jacc",
+  "n_alias_core_jacc",
+  "n_len_q",
+  "n_len_t",
+  "n_core_missing",
+  "n_core_extra",
+  "n_trunc_prefix",
+  "a_num_jacc",
+  "a_first_num_eq",
+  "a_num_shared",
+  "a_q_num_missing",
+  "a_bignum_jacc",
+  "a_idf_jacc",
+  "a_idf_cov_t",
+  "a_max_shared_idf",
+  "a_t_empty",
+  "t_src",
+  "t_nm_scr",
+  "t_ad_scr",
+  "t_has_dom",
+  "t_has_alias",
+  "q_nm_freq_s1",
+  "t_nm_freq_s1",
+  "t_nm_freq_t",
+  "n_dom_prefix_cov",
+  "y"
+ ]
+}
+[modal-client] 2026-09-25T00:05:53+0000 Detected 1 background thread(s) [ExecutorManagerThread] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-lvNCdpIacxasxaGSW23bw8

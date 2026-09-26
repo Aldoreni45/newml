@@ -1,0 +1,239 @@
+﻿Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/ayanpthan768/main/ap-Cmdy3oQ33bdihSqiCRz2le
+✓ Created objects.
+├── 🔨 Created mount D:\ML 
+│   Project\hackathon\amazon-ml-er\modal_app\stage_train.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\modal_app\common.py
+├── 🔨 Created mount D:\ML Project\hackathon\amazon-ml-er\src
+├── 🔨 Created function train.
+├── 🔨 Created function train_cv.
+├── 🔨 Created function train_loco.
+└── 🔨 Created function evaluate_models.
+{
+ "tag": "us2in_pseudo",
+ "train_country": "US",
+ "target_country": "India",
+ "country_norm": false,
+ "pseudo": true,
+ "iter0": 454,
+ "source_only": {
+  "rules": {
+   "thr_0.5_excl": 0.93138,
+   "thr_0.6_excl": 0.93542,
+   "thr_0.7_excl": 0.93891,
+   "thr_0.8_excl": 0.94184,
+   "thr_0.85_excl": 0.94332,
+   "thr_0.9_excl": 0.94475,
+   "thr_0.95_excl": 0.94469
+  },
+  "best": [
+   "thr_0.9_excl",
+   0.94475
+  ],
+  "reliability": [
+   [
+    0.2,
+    0.3,
+    5768,
+    0.2465,
+    0.2117
+   ],
+   [
+    0.3,
+    0.4,
+    4457,
+    0.3481,
+    0.2843
+   ],
+   [
+    0.4,
+    0.5,
+    3900,
+    0.4491,
+    0.3408
+   ],
+   [
+    0.5,
+    0.6,
+    3632,
+    0.5488,
+    0.4003
+   ],
+   [
+    0.6,
+    0.7,
+    3650,
+    0.65,
+    0.4482
+   ],
+   [
+    0.7,
+    0.8,
+    4276,
+    0.7524,
+    0.5154
+   ],
+   [
+    0.8,
+    0.9,
+    7369,
+    0.8568,
+    0.5942
+   ],
+   [
+    0.9,
+    0.95,
+    8005,
+    0.9284,
+    0.6936
+   ],
+   [
+    0.95,
+    0.98,
+    11891,
+    0.9676,
+    0.7861
+   ]
+  ]
+ },
+ "pseudo_n": 11534546,
+ "pseudo_pos": 881596,
+ "pseudo_label_precision_pos": 0.9650815112591254,
+ "pseudo_label_acc_neg": 0.9990135126889734,
+ "iter1": 382,
+ "self_trained": {
+  "rules": {
+   "thr_0.5_excl": 0.93422,
+   "thr_0.6_excl": 0.93635,
+   "thr_0.7_excl": 0.9378,
+   "thr_0.8_excl": 0.93954,
+   "thr_0.85_excl": 0.94061,
+   "thr_0.9_excl": 0.94161,
+   "thr_0.95_excl": 0.94301
+  },
+  "best": [
+   "thr_0.95_excl",
+   0.94301
+  ],
+  "reliability": [
+   [
+    0.2,
+    0.3,
+    2844,
+    0.247,
+    0.3182
+   ],
+   [
+    0.3,
+    0.4,
+    2233,
+    0.3486,
+    0.3493
+   ],
+   [
+    0.4,
+    0.5,
+    2004,
+    0.4496,
+    0.3842
+   ],
+   [
+    0.5,
+    0.6,
+    1846,
+    0.5495,
+    0.4182
+   ],
+   [
+    0.6,
+    0.7,
+    1798,
+    0.6498,
+    0.4689
+   ],
+   [
+    0.7,
+    0.8,
+    2016,
+    0.7521,
+    0.4712
+   ],
+   [
+    0.8,
+    0.9,
+    3128,
+    0.8557,
+    0.5403
+   ],
+   [
+    0.9,
+    0.95,
+    3314,
+    0.9282,
+    0.5824
+   ],
+   [
+    0.95,
+    0.98,
+    5062,
+    0.9676,
+    0.6804
+   ]
+  ]
+ },
+ "t": 564.3731389045715
+}
+❕ Connection lost!
+The detached App will keep running. You can track its progress on the 
+Dashboard: https://modal.com/apps/ayanpthan768/main/ap-Cmdy3oQ33bdihSqiCRz2le
+
+Stream App logs:
+modal app logs ap-Cmdy3oQ33bdihSqiCRz2le
+
+Stop the App:
+modal app stop ap-Cmdy3oQ33bdihSqiCRz2le
+modal : Task exception was never retrieved
+At line:1 char:386
++ ... NG="utf-8"; modal run --detach modal_app/stage_train.py::loco --tag u ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Task exception was never retrieved:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+future: <Task finished name='Task-12' coro=<get_app_logs_loop() done, defined at 
+C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py:542> 
+exception=OSError("Multiple exceptions: [Errno 10060] Connect call failed ('64:ff9b::3650:d2d', 443, 0, 0), [Errno 
+10060] Connect call failed ('54.80.13.45', 443)")>
+Traceback (most recent call last):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py", line 646, in 
+get_app_logs_loop
+    await _get_logs()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_output.py", line 606, in 
+_get_logs
+    async for log_batch in client.stub.AppGetLogs.unary_stream(request):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\_grpc_client.py", line 170, in 
+unary_stream
+    async for response in self.client._call_stream(self.wrapped_method, request, metadata=metadata):
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\client.py", line 342, in 
+_call_stream
+    await self._call_safely(stream.send_message(request, end=True), f"{grpclib_method.name}.send_message")
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\modal\client.py", line 290, in 
+_call_safely
+    return await request_task
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 242, in 
+send_message
+    await self.send_request()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 174, in 
+send_request
+    protocol = await self._channel.__connect__()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 748, in 
+__connect__
+    self._protocol = await self._create_connection()
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\site-packages\grpclib\client.py", line 725, in 
+_create_connection
+    _, protocol = await self._loop.create_connection(
+  File "C:\Users\ayanp\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1073, in 
+create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 10060] Connect call failed ('64:ff9b::3650:d2d', 443, 0, 0), [Errno 10060] 
+Connect call failed ('54.80.13.45', 443)
