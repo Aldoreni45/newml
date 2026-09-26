@@ -6,6 +6,7 @@ function; `.local()` runs it in this process. Storage goes to --workdir (BER_ROO
 
 Usage (recommended: >= 32 vCPU, >= 128 GB RAM for the full-size data):
     python run_pipeline.py --zip /path/to/student_resource.zip --workdir /data/ber --config configs/final.json
+    python run_pipeline.py --data-root /kaggle/input/mlchallenge/data/raw --workdir /kaggle/working/ber --config configs/final.json
 
 Outputs:
     <workdir>/submissions/<out_tag>/output/matching_results.tsv
@@ -21,6 +22,7 @@ import os
 import shutil
 import sys
 import time
+from pathlib import Path
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -28,14 +30,67 @@ STEPS = ["extract", "normalize", "block_train", "block_test", "embed_train", "em
          "features_train", "features_test", "stage1", "collective_train", "collective_test", "stage2", "predict"]
 
 
+def validate_dataset(data_root: str) -> bool:
+    """Validate that all required TSV files exist in the Kaggle dataset structure."""
+    data_root = Path(data_root)
+    print(f"\n=== Dataset Validation ===")
+    print(f"Dataset root: {data_root}")
+    
+    required_files = {
+        "train": [
+            "train_ground_truth.tsv",
+            "train_source1.tsv",
+            "train_source2.tsv",
+            "train_source3.tsv",
+        ],
+        "test": [
+            "test_source1.tsv",
+            "test_source2.tsv",
+            "test_source3.tsv",
+        ]
+    }
+    
+    all_ok = True
+    
+    for split, files in required_files.items():
+        print(f"\n{split.capitalize()} files:")
+        split_dir = data_root / split
+        if not split_dir.exists():
+            print(f"  ✗ Directory not found: {split_dir}")
+            all_ok = False
+            continue
+        
+        for fn in files:
+            fp = split_dir / fn
+            if fp.exists():
+                print(f"  ✓ {fn}")
+            else:
+                print(f"  ✗ {fn} - NOT FOUND")
+                all_ok = False
+    
+    if not all_ok:
+        print("\n❌ Dataset validation failed - missing required files")
+        return False
+    
+    print("\n✅ Dataset validation passed")
+    return True
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--zip", required=False, help="student_resource.zip (only needed for the extract step)")
+    ap.add_argument("--data-root", required=False, help="pre-extracted dataset root directory (e.g., /kaggle/input/mlchallenge/data/raw)")
     ap.add_argument("--workdir", required=True, help="working directory (BER_ROOT)")
     ap.add_argument("--config", default=os.path.join(HERE, "configs", "final.json"))
     ap.add_argument("--skip", default="", help="comma list of steps to skip")
     ap.add_argument("--only", default="", help="comma list of steps to run (default: all)")
     args = ap.parse_args()
+    
+    # Validate dataset if --data-root is provided
+    if args.data_root:
+        if not validate_dataset(args.data_root):
+            print("Error: Dataset validation failed. Please check the paths above.")
+            return 1
 
     os.environ["BER_ROOT"] = os.path.abspath(args.workdir)  # must be set before importing common
     for p in (HERE, os.path.join(HERE, "src"), os.path.join(HERE, "modal_app")):  # repo or package layout
@@ -69,7 +124,7 @@ def main() -> int:
         if args.zip:
             shutil.copy(args.zip, os.path.join(root, "raw", "student_resource.zip"))
         from profile_data import extract
-        return extract.local()
+        return extract.local(data_root=args.data_root)
 
     from stage_block import block
     from stage_collective import collective

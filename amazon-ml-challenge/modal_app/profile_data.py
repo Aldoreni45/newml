@@ -63,8 +63,8 @@ def _q(s, qs=(0.0, 0.05, 0.25, 0.5, 0.75, 0.95, 1.0)):
 
 
 @app.function(image=cpu_image, volumes={MOUNT: vol}, cpu=8, memory=32768, timeout=3600)
-def extract() -> dict:
-    """Unzip once, scan raw lines for format anomalies, convert TSV -> parquet."""
+def extract(data_root: str = None) -> dict:
+    """Unzip once or copy pre-extracted data, scan raw lines for format anomalies, convert TSV -> parquet."""
     import zipfile
     import shutil
 
@@ -74,20 +74,36 @@ def extract() -> dict:
     import polars as pl
 
     ensure_dirs()
-    zpath = f"{VOL}/raw/student_resource.zip"
     report = {}
-    with zipfile.ZipFile(zpath) as z:
-        for info in z.infolist():
-            n = info.filename
-            if n.startswith("__MACOSX") or n.endswith("/") or n.endswith(".DS_Store"):
-                continue
-            rel = n.split("student_resource/", 1)[1]
-            if rel.startswith("dataset/"):
-                rel = rel[len("dataset/"):]
-            dst = f"{DATA}/{rel}"
-            os.makedirs(os.path.dirname(dst), exist_ok=True)
-            with z.open(info) as src, open(dst, "wb") as out:
-                shutil.copyfileobj(src, out, 64 * 1024 * 1024)
+    
+    if data_root:
+        # Kaggle mode: copy pre-extracted TSV files from data_root
+        print(f"Using pre-extracted data from: {data_root}")
+        for split in ("train", "test"):
+            src_split = os.path.join(data_root, split)
+            dst_split = f"{DATA}/{split}"
+            os.makedirs(dst_split, exist_ok=True)
+            for fn in os.listdir(src_split):
+                if fn.endswith(".tsv"):
+                    src_path = os.path.join(src_split, fn)
+                    dst_path = os.path.join(dst_split, fn)
+                    print(f"Copying {src_path} -> {dst_path}")
+                    shutil.copy(src_path, dst_path)
+    else:
+        # Original mode: extract from zip
+        zpath = f"{VOL}/raw/student_resource.zip"
+        with zipfile.ZipFile(zpath) as z:
+            for info in z.infolist():
+                n = info.filename
+                if n.startswith("__MACOSX") or n.endswith("/") or n.endswith(".DS_Store"):
+                    continue
+                rel = n.split("student_resource/", 1)[1]
+                if rel.startswith("dataset/"):
+                    rel = rel[len("dataset/"):]
+                dst = f"{DATA}/{rel}"
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                with z.open(info) as src, open(dst, "wb") as out:
+                    shutil.copyfileobj(src, out, 64 * 1024 * 1024)
     for split in ("train", "test"):
         for fn in sorted(os.listdir(f"{DATA}/{split}")):
             if not fn.endswith(".tsv"):
